@@ -1,0 +1,198 @@
+{
+  "baseline": "D:\\AAAProject\\FPGA\\AAA_LookHere\\asym_smooth_archive_20261026\\snapshot",
+  "files": [
+    {
+      "file": "AGENTS.md",
+      "change": "modified",
+      "before_sha256": "48b71534f2c0f9ed4a77ac49f02fcf82acf41cfbe8e589796575b663e92fdc8f",
+      "after_sha256": "ca3a826ee317f3479f9de23d4bc97a5622c56bc3462bb015e32ae18a27abfaf0"
+    },
+    {
+      "file": "README.md",
+      "change": "modified",
+      "before_sha256": "81e890137bd5349a3ea042cafee226eae92c1cfb6c9fd72958dcba07cf3f6a38",
+      "after_sha256": "53e08ea3e4cb1e9191370f0c9b4e13acf9f74093c9fef01e9477efab44181c56"
+    },
+    {
+      "file": "asym_smooth_contract.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "a089b284766c19de0878d70612f7cb57cb1d1d80047e9cb3a7a28ea3ff63e1b1"
+    },
+    {
+      "file": "asym_smooth_diagnosis.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "1c6b4208450584497240bd76804b623f750451c7e34cacebbb3096b7ae4cb284"
+    },
+    {
+      "file": "asym_smooth_lineage.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "a2dd2858a5b54ac57dd72321f3016df1c7baf95ef6673bcf811b34a642cf12c3"
+    },
+    {
+      "file": "asym_smooth_verification.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "ea35d146d63e8aa67f7b860a3b0f43f26470223fe1bd0e35871152460ab648a0"
+    },
+    {
+      "file": "asym恢复与显示延迟_测试说明.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "20ec61b8b0d0c579c1128519d5f907d97c96199ae77fffeec4365b795b1db2e8"
+    },
+    {
+      "file": "build.ps1",
+      "change": "modified",
+      "before_sha256": "13434ca75a4734c1dce77d0205ab850ca91c27caebdbe23eed2e7cb599500a2a",
+      "after_sha256": "4bc23e734aff3a5575ba6227153c2002e972d12af0f9732cbe14b6a91e581cd1"
+    },
+    {
+      "file": "build_sources.json",
+      "change": "modified",
+      "before_sha256": "c306ed379d37c0d4ff95ab129ede323d870bba25f4dac428974450f18aff141f",
+      "after_sha256": "aab3044afdb6d9911a1601fb17ea8fe26d950fb851a830ce70ab963c94bf9774"
+    },
+    {
+      "file": "compose.py",
+      "change": "modified",
+      "before_sha256": "650aacac5369209cf3774b396b84a45f1a11dd01ff2383c38edf8ef769a0330b",
+      "after_sha256": "58d304dff71c600cef65c599951dd62b66f0685e7a4f4b6ecc4bea3f4d004d6a"
+    },
+    {
+      "file": "host/asym_smooth_controls.ps1",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "034a02c6eaed11d437d6a0c33055d9cb302633175543efc86bbdf7188b76bea4"
+    },
+    {
+      "file": "host/asym_smooth_panel_cn.ps1",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "7953145d94d83380e00b4a49df302eaca5632eaf4de78b9cd1ea0c2db0dd8312"
+    },
+    {
+      "file": "host/start_asym_smooth.cmd",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "d2f296c97ea426fc3a3ff7aa2328f24e6229ebfb1f2ab844138a1322339cb488"
+    },
+    {
+      "file": "latest_latency_analysis.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "5c2fb2a2784f94467160b6f51814a58a1149cb97841079a10a52c6e1447e72aa"
+    },
+    {
+      "file": "publish_asym_smooth.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "193758f7734754a8bb8a25e195f87a0e561b7e4a2af51c187a365b803a8e6f1e"
+    },
+    {
+      "file": "routed_netlist.v",
+      "change": "modified",
+      "before_sha256": "c0087ced56aa7d63be4850898b73128d737b94efca5cf4491c2a57ce9c296c7c",
+      "after_sha256": "7d39fb7bb944cabcd0dad985a52d595edff6879d80efdec2e302edaf1f2b6bce"
+    },
+    {
+      "file": "rtl/vision_monitor.v",
+      "change": "modified",
+      "before_sha256": "3961968bce06135f8e0a516c3f7e35a53f260ca84ef0e409ae19ac93e7b1c1b8",
+      "after_sha256": "eb100beefd67575ca2fd1a04bd6dafbdec63626f4fc241f0e25ac6e571725071"
+    },
+    {
+      "file": "rtl/vision_monitor_all.v",
+      "change": "modified",
+      "before_sha256": "6550819d1e91aa7cbbbaf1c68719f2d2fc8081c1c07c93b164ba94fe92303422",
+      "after_sha256": "b20ea52abb314bae7d05659015901b61520c990f761bcb0c44b581c24190c0f4"
+    },
+    {
+      "file": "rtl/vision_overlay_lead.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "d9261b640e576ae29f82af4da0c8deb2adba0c10a51499e41d7b7b7e224b97fa"
+    },
+    {
+      "file": "rtl/vision_region_hold.v",
+      "change": "modified",
+      "before_sha256": "3e4e96b62f24baba6ed878254e791fa0b2b4370fffc2ab29614923999b433ed3",
+      "after_sha256": "9ac52ebcbc94cca0584d0d823f98d6c6a47cdd48bbc75b53729aefdff9523797"
+    },
+    {
+      "file": "run_asym_smooth_regression.ps1",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "3fa9f8853a31e08eeae3fa8c21094248ad311db67a196697f49437a09c4ebeaf"
+    },
+    {
+      "file": "run_sim.ps1",
+      "change": "modified",
+      "before_sha256": "2156a709d6e56d9b8ab727cd575ea3588de3d28ac52b3f1c7d4c8b9da7f2a1a3",
+      "after_sha256": "959247578f27961e9717e359764a4d6ee4f730d45463edfafa5541b9895cc0f5"
+    },
+    {
+      "file": "sim/asym_golden_region.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "968054f4fac1bfff3dcf5f1cf97bc7f7b24bbd6f6e23ed23e47bb3ac83a0aa11"
+    },
+    {
+      "file": "sim/steel_ball_detect_before_overlay_fix.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "ab5390b3500b6fed32edbff143ff2e42b7bea0fa1f8e0050436ec2025358166a"
+    },
+    {
+      "file": "sim/tb_overlay_lead.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "bd19b90539d4bfafbe3d9c86abf027919f85aea3f7ea71926b5bda023a890192"
+    },
+    {
+      "file": "sim/tb_overlay_rgb.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "ba24b2f643b04475ff70a57e791c284567200b83071e919191e4b9da452d9e11"
+    },
+    {
+      "file": "sim/tb_smooth_plant.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "028984c6191f03fe248405f47e35c46898dbae39d073a10291f704e9ca6e18fb"
+    },
+    {
+      "file": "sim/tb_smooth_policy.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "9901bcdefb17cb1cfca140b14869c670d0201f57852e5d7b24696b367f34ece1"
+    },
+    {
+      "file": "sim/tb_smooth_runtime.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "944c8d74a62ca15505732e9a2cff7a7cefb50480633d267d278938c8d03faab0"
+    },
+    {
+      "file": "user_source/hdl_source/design_top_wrapper.v",
+      "change": "modified",
+      "before_sha256": "8ff7c65f8e6978553453f304e8824eb739398f29d1019cc71c56ed46a70bd492",
+      "after_sha256": "a6919efe51c5ff3e16c3b85ac7a8309e55ce36ce75203b5a303150086562997f"
+    },
+    {
+      "file": "user_source/hdl_source/steel_ball_detect.v",
+      "change": "modified",
+      "before_sha256": "02e808c5af747e54059fc401bc6d5c7a7fe939012c890ed9454cf26a5dcc4dc7",
+      "after_sha256": "0655c5548aaab53bd4d0d82844b13d163546ba0520c1728ee58fd25b8d31b0e0"
+    },
+    {
+      "file": "verify_asym_smooth.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "1a7dca8c4ebd5c52aa775a848a9ef7a9c6ba8a3b2747f70f42a7fd473e10fed3"
+    }
+  ],
+  "note": "combined RTL and files over2MB omitted from textual diff; SHA256 included"
+}

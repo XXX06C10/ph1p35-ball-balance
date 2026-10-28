@@ -1,0 +1,7 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261023_VIS5_提速前",
+  "archive_zip": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261023_VIS5_提速前.zip",
+  "old_bit_sha256": "727f730203dfe59645003da2ee99fdb9fb0dd8e96c4ed4838d7a110fb5469ba8",
+  "date": "2026-10-23",
+  "human_feedback": "Direction correct; G3/DZ5/L24 helped slightly; still slow and conservative. Actual capture retains SL2/100ms and30s. Speed/strength tuning authorized; keep direction normal, bounds/fault guards/loss policy/protocol/pins."
+}

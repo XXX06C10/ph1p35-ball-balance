@@ -1,0 +1,26 @@
+{
+  "source_files_changed_or_added": [
+    "build.ps1",
+    "host/vision_panel_cn.ps1",
+    "implement_response_support.py",
+    "prepare_response.py",
+    "publish_response.py",
+    "response_contract.py",
+    "rtl/vision_config_rx.v",
+    "rtl/vision_follow_control.v",
+    "rtl/vision_monitor.v",
+    "rtl/vision_monitor_all.v",
+    "rtl/vision_servo_core.v",
+    "run_sim.ps1",
+    "sim/tb_camera.v",
+    "sim/tb_center.v",
+    "sim/tb_follow.v",
+    "sim/tb_full.v",
+    "sim/tb_loss.v",
+    "sim/tb_plant.v",
+    "sim/tb_response.v",
+    "sim/tb_rgb.v",
+    "update_response_verifier.py",
+    "verify.py"
+  ]
+}

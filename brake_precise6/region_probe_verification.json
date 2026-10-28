@@ -1,0 +1,84 @@
+{
+  "status": "SOFTWARE_ROUTING_PASS_AWAITING_PHYSICAL_MEASUREMENT",
+  "bit": "output\\vision_follow_20261022_region_probe.bit",
+  "sha256": "12dbbcc0634074aee8ed291b398ba2fc5ece85b6539b876b4dd0bc925a802666",
+  "device": "PH1P35MDG324",
+  "timing_ns": {
+    "SWNS": 0.155,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": 19173,
+    "register": 19176,
+    "IO": 76,
+    "ERAM": 50,
+    "DSP": 26
+  },
+  "suites": {
+    "tb_region_probe": "REGION_PROBE_ALL_PASS",
+    "tb_probe_guards": "PROBE_GUARDS_PASS",
+    "tb_probe_events": "PROBE_EVENTS_PASS",
+    "tb_full": "ALL_TESTS_PASS",
+    "tb_motion": "MOTION_GUARDS_PASS",
+    "tb_hold": "HOLD_ALL_PASS",
+    "tb_fast": "FAST_ALL_PASS",
+    "tb_center": "CENTER_CAPTURE_PASS",
+    "tb_cascade_config": "CASCADE_CONFIG_PASS",
+    "tb_detector": "DETECTOR_INTEGRATION_PASS",
+    "tb_camera": "CAMERA_CONTROL_PASS",
+    "tb_large": "LARGE_TARGET_PASS",
+    "tb_follow": "FOLLOW_ALL_PASS",
+    "tb_plant": "PLANT_ALL_PASS",
+    "tb_loss": "LOSS_CONTROL_PASS",
+    "tb_response": "RESPONSE_ALL_PASS",
+    "tb_neutral": "NEUTRAL_ALL_PASS",
+    "tb_outer": "OUTER_ALL_PASS",
+    "tb_cascade": "CASCADE_ALL_PASS",
+    "tb_cascade_plant": "CASCADE_PLANT_ALL_PASS",
+    "tb_easy": "EASY_ALL_PASS",
+    "tb_easy_plant": "EASY_PLANT_ALL_PASS",
+    "tb_checkpoint": "CHECKPOINT_ALL_PASS",
+    "tb_replay": "REPLAY_ALL_PASS",
+    "tb_braking": "BRAKING_ALL_PASS",
+    "tb_braking_plant": "BRAKING_PLANT_ALL_PASS"
+  },
+  "uart_frames": {
+    "E1": 711,
+    "D1": 1187,
+    "VIS5": 2
+  },
+  "host_tests": 12,
+  "mirror_drivers": {
+    "O_motor_step": "O_motor_step_v2_dup_1",
+    "O_motor_step_v2": "O_motor_step_v2_dup_1",
+    "O_motor_dir": "O_motor_dir_v1_dup_1",
+    "O_motor_dir_v1": "O_motor_dir_v1_dup_1",
+    "O_motor_en": "\\u_vision_monitor/motor_core/active_i4_syn_8",
+    "O_motor_en_u2": "\\u_vision_monitor/motor_core/active_i4_syn_8"
+  },
+  "panels": {
+    "start_panel.cmd-SelfTest": "HOST_SELF_TEST_PASS",
+    "start_panel.cmd-SmokeTest": "HOST_UI_SMOKE_PASS",
+    "start_region_probe.cmd-SelfTest": "HOST_SELF_TEST_PASS",
+    "start_region_probe.cmd-SmokeTest": "REGION_PANEL_SMOKE_PASS"
+  },
+  "paired_host_sha256": {
+    "host\\cascade_controls.ps1": "029807824e9bf56bd9cbc5ff8beb02a6c6e1b78ff366d23e0ba9cce825f9a878",
+    "host\\cascade_protocol.ps1": "783a9f943d67a38e571085828085372b9a94f343e536cd1d0840c559069d5f11",
+    "host\\cascade_protocol.py": "062178ae5270e8fa45fcfaf60e31333d0795e81f8f67edd5ee7c6fa72c9a842f",
+    "host\\fit_cascade.py": "ac2f9bc81994a9f5a8e3916e10ee1c1132d83aafab2b574ee17492a577b38046",
+    "host\\region_panel_cn.ps1": "ecb07f0eab0be98edba9b2d44da51a3f2384e85e787cefc800ad146fdd310995",
+    "host\\region_probe.py": "d13d3aae4ae932d27e737d35eb9ad2750f25a7d4d6aad431ac8311e5bba32b26",
+    "host\\region_probe_controls.ps1": "929b9e995bd451cb207d7ffd5d168d679a80c94ed29f2112f7d9af5e21e33b82",
+    "host\\region_probe_protocol.ps1": "16d3d262a96fa519643dcfff86bc1df175583b68be7720da3ca099f2b3ed08a1",
+    "host\\start_panel.cmd": "ecd016d0a9f37fc8200aeb746656b5bdde46e3ade5e6c0fe9a8e0d31403a36d5",
+    "host\\start_region_probe.cmd": "88c8200b128f11ae76a9a793d0684d344255b30b8c29e83cf6e355e218b0f29e",
+    "host\\vision_panel.ps1": "b623955e75d93678d558cab4fabaf31640abfe852497c3ff85d260e425c47c69",
+    "host\\vision_panel_cn.ps1": "2073ea1bb3001022aea73b29045b4a6961f4d4d2140f8bca525adbd612cc07c8"
+  },
+  "physical_measurement": "PENDING",
+  "F4_root_cause": "UNCONFIRMED; slow-probe evidence only, original guards unchanged",
+  "auto_programmed": false
+}

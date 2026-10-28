@@ -1,0 +1,174 @@
+{
+  "baseline": "D:\\AAAProject\\FPGA\\AAA_LookHere\\region100_archive_20261026\\snapshot",
+  "files": [
+    {
+      "file": "100px稳区_测试说明.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "f1ffd786d504d06ea1e010426bb84ddcfc94bc2b3943835ff08c3c879a888591"
+    },
+    {
+      "file": "AGENTS.md",
+      "change": "modified",
+      "before_sha256": "ca3a826ee317f3479f9de23d4bc97a5622c56bc3462bb015e32ae18a27abfaf0",
+      "after_sha256": "e7c4401dee70edc945587cd0796d04899fe8f33efeff04399c916b2e1a52cc6a"
+    },
+    {
+      "file": "README.md",
+      "change": "modified",
+      "before_sha256": "53e08ea3e4cb1e9191370f0c9b4e13acf9f74093c9fef01e9477efab44181c56",
+      "after_sha256": "b053bd45030c32fae3a35eff852f9ec8b70dbedf25b6284cb027147d12a6fc35"
+    },
+    {
+      "file": "build.ps1",
+      "change": "modified",
+      "before_sha256": "4bc23e734aff3a5575ba6227153c2002e972d12af0f9732cbe14b6a91e581cd1",
+      "after_sha256": "270c88751423ebb797f1ed4446ec722f6af72522b670d407abfdb79ec1ba63fb"
+    },
+    {
+      "file": "build_sources.json",
+      "change": "modified",
+      "before_sha256": "aab3044afdb6d9911a1601fb17ea8fe26d950fb851a830ce70ab963c94bf9774",
+      "after_sha256": "4b4e43b885771c8f7618613efcd6bc87582f32097048f0665a03aca1002fee7a"
+    },
+    {
+      "file": "compose.py",
+      "change": "modified",
+      "before_sha256": "58d304dff71c600cef65c599951dd62b66f0685e7a4f4b6ecc4bea3f4d004d6a",
+      "after_sha256": "f229a68aac356d4a7800ac5e3c9a7dbe835aa3fa0ee8f899d3e8644748b1cbfc"
+    },
+    {
+      "file": "host/region100_controls.ps1",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "a2e20f6f5fcd678837d7d11971dd24bb3bc937c52c3205d39e31123cf87eab80"
+    },
+    {
+      "file": "host/region100_panel_cn.ps1",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "09a0cec22554b8d64d25f4a54bce45a6eb98bdb3cecd26a568bcd86a7cf2a90d"
+    },
+    {
+      "file": "host/region100_profile.ps1",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "7516787a735a24cc9fc4366f641f71841d65ee8a4bd890410d2bf9705c211aab"
+    },
+    {
+      "file": "host/start_region100.cmd",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "6a9957828c8b636bfbd1ad4e5aab0c73637f8e33c326165ea8ecaa2de5df7d66"
+    },
+    {
+      "file": "latest_region100_analysis.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "e00fa569547e9a38ca4b58bbcb66528a88f6db93560f27b1fbcb928aed95d284"
+    },
+    {
+      "file": "publish_region100.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "560772bea70e498ed607517280af429b3621e6d348ba3a0fea80c552d5339029"
+    },
+    {
+      "file": "region100_contract.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "0f9c7624ecce1023e2999df34410f66b3e72205b7c683d3c895e9cae3d7f77ef"
+    },
+    {
+      "file": "region100_lineage.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "3ba648435464f9c87e2c3b289c667842ba4520cb43eb9cb74ef1845bf3c033bd"
+    },
+    {
+      "file": "region100_required_suites.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "933285259d48e1eba771abf92c3372d326712b3f2706096af943f375603a7b24"
+    },
+    {
+      "file": "region100_verification.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "6982dc06223c22269c5172c684cac7939b0782dec0517ffbcb2635305b7054a2"
+    },
+    {
+      "file": "routed_netlist.v",
+      "change": "modified",
+      "before_sha256": "7d39fb7bb944cabcd0dad985a52d595edff6879d80efdec2e302edaf1f2b6bce",
+      "after_sha256": "4aaa1221a693f110a63aac48f9db929888133636bb3f182dcb82cf116d535f3b"
+    },
+    {
+      "file": "rtl/vision_monitor.v",
+      "change": "modified",
+      "before_sha256": "eb100beefd67575ca2fd1a04bd6dafbdec63626f4fc241f0e25ac6e571725071",
+      "after_sha256": "12bc760983db2fa3d207bc55546b48cfd4900ef6f5c87711c32a044c166f6a28"
+    },
+    {
+      "file": "rtl/vision_monitor_all.v",
+      "change": "modified",
+      "before_sha256": "b20ea52abb314bae7d05659015901b61520c990f761bcb0c44b581c24190c0f4",
+      "after_sha256": "b22635c6425538869c7b7a5cfb5f8267814007ce664e37ea746a6a5422b0974c"
+    },
+    {
+      "file": "rtl/vision_region100.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "73f97a74b13441247d6b4e4df532e0c7fdf4d316bad16ad5983ecfceb640d86e"
+    },
+    {
+      "file": "run_region100_regression.ps1",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "ea9ec27065ceeaa8f6d3723e19e3432bea24fdc8300b1e6c79c880553f154173"
+    },
+    {
+      "file": "run_sim.ps1",
+      "change": "modified",
+      "before_sha256": "959247578f27961e9717e359764a4d6ee4f730d45463edfafa5541b9895cc0f5",
+      "after_sha256": "d4f0086b6dd4a59244112e1c23b90dc6f517d624c7afa3c4e6c567d918e2cac4"
+    },
+    {
+      "file": "sim/tb_region100_plant.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "37aa7b4b0ac25ab251f596c1c06c81e4e8e5d0d3695f8d4aa457dabcf3162507"
+    },
+    {
+      "file": "sim/tb_region100_policy.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "0862750e36bd1ffc1eddc1fd46fd25db5c76639d212a274531701688484dc621"
+    },
+    {
+      "file": "sim/tb_region100_runtime.v",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "81aacaf977d5d91cf15a1de3c7b4023e107a6b4d6d861dd955fdac977055ffd1"
+    },
+    {
+      "file": "user_source/hdl_source/design_top_wrapper.v",
+      "change": "modified",
+      "before_sha256": "a6919efe51c5ff3e16c3b85ac7a8309e55ce36ce75203b5a303150086562997f",
+      "after_sha256": "79ea6e75bc8c3e6d13e018d878c6f4dae68cb57c869e4ed6d69b9553fa459324"
+    },
+    {
+      "file": "verify_region100.py",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "a8fbcf53a1ed5d3bcff1c0a2a38f133b78bce5990f865fd90ecba20681a3903e"
+    },
+    {
+      "file": "测试说明.md",
+      "change": "modified",
+      "before_sha256": "20ec61b8b0d0c579c1128519d5f907d97c96199ae77fffeec4365b795b1db2e8",
+      "after_sha256": "f1ffd786d504d06ea1e010426bb84ddcfc94bc2b3943835ff08c3c879a888591"
+    }
+  ],
+  "note": "composed RTL and files over2MB omitted from text diff;SHA included"
+}

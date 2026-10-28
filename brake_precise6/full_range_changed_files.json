@@ -1,0 +1,92 @@
+[
+  {
+    "path": "rtl/vision_region_hold.v",
+    "parent_sha256": "7a6cbb16ef43df59d992325903c55d8723fb21ae25ba166d9d97e913813722e3",
+    "sha256": "3e4e96b62f24baba6ed878254e791fa0b2b4370fffc2ab29614923999b433ed3"
+  },
+  {
+    "path": "rtl/vision_monitor_all.v",
+    "parent_sha256": "63e2a9e4b7ec72769a3bee991f4bb1515037e684b24a8be4a1cf87822b6cf9a6",
+    "sha256": "6550819d1e91aa7cbbbaf1c68719f2d2fc8081c1c07c93b164ba94fe92303422"
+  },
+  {
+    "path": "build.ps1",
+    "parent_sha256": "c4dca21360c4e7d147d55a3f3e3c5ac22687e9a003f8412d3386c80b306f429c",
+    "sha256": "13434ca75a4734c1dce77d0205ab850ca91c27caebdbe23eed2e7cb599500a2a"
+  },
+  {
+    "path": "run_sim.ps1",
+    "parent_sha256": "b1e4839e5a250509c17934b468b9353a9c253e010978a958d9a087c6d2cd8461",
+    "sha256": "2156a709d6e56d9b8ab727cd575ea3588de3d28ac52b3f1c7d4c8b9da7f2a1a3"
+  },
+  {
+    "path": "run_full_range_regression.ps1",
+    "parent_sha256": null,
+    "sha256": "713b221ddf4aee4078dbf05d608cc7421631fa37b89ebfbdcbbb56ab234c4ee1"
+  },
+  {
+    "path": "sim/tb_full_window_policy.v",
+    "parent_sha256": null,
+    "sha256": "23b9b20c7f58c641d917bae98b1e5b0e6a95dc084e627148cc9f708f8d07d73f"
+  },
+  {
+    "path": "host/full_range_panel_cn.ps1",
+    "parent_sha256": null,
+    "sha256": "16bcc388a010a1975802e0e904a5b93345268695f8fe0ed0ac844d6b81d9c9b1"
+  },
+  {
+    "path": "host/full_range_controls.ps1",
+    "parent_sha256": null,
+    "sha256": "a2a7fea556b3b5d7825cc045ae89d2e562e349606262c54b8d3508eb479d20a3"
+  },
+  {
+    "path": "host/full_range_profile.ps1",
+    "parent_sha256": null,
+    "sha256": "907a81824e1adfba96762eadb9dfb934ed89e607047a41aa31a1c37d290edf1c"
+  },
+  {
+    "path": "host/start_full_range.cmd",
+    "parent_sha256": null,
+    "sha256": "472dc85728b43c2cc336fc81611bc68f83de697fdb82c2a78e61122aef8f4089"
+  },
+  {
+    "path": "full_range_contract.py",
+    "parent_sha256": null,
+    "sha256": "fe572ae211e2883f1bd06a7cc8aa40d7fa6b257552d629cea8ac22e93c1efb78"
+  },
+  {
+    "path": "verify_full_range.py",
+    "parent_sha256": null,
+    "sha256": "fc20a0ccda014625a14c7b581c6c18e5a5625b6f2b76ea4ce72f42d0319edc68"
+  },
+  {
+    "path": "publish_full_range.py",
+    "parent_sha256": null,
+    "sha256": "0740946c1102b2c4dd883b4b085e36b391025b0c8c8da452390ac33ea0760646"
+  },
+  {
+    "path": "full_range_diagnosis.json",
+    "parent_sha256": null,
+    "sha256": "130468ec9968a17f1fe748ece40ee110c48ef5366d2eff4c0ffe3860e6c6f836"
+  },
+  {
+    "path": "full_range_lineage.json",
+    "parent_sha256": null,
+    "sha256": "2edc058c7fa983ec6664542c8f96376fb30e5e8b1f75c1021ee53634818a0f69"
+  },
+  {
+    "path": "完整工作范围_测试说明.md",
+    "parent_sha256": null,
+    "sha256": "128f1e8d29480614b13121d9977f898367f70daccd73dc23e30bbba5c0acaba7"
+  },
+  {
+    "path": "AGENTS.md",
+    "parent_sha256": "77140c7f88795714a548d131b124198ade6df71543945be546b4d9b1acfc5a53",
+    "sha256": "48b71534f2c0f9ed4a77ac49f02fcf82acf41cfbe8e589796575b663e92fdc8f"
+  },
+  {
+    "path": "README.md",
+    "parent_sha256": "84d1b116d143452c35f4999239cf0937f701e5393c8d5bfea2e34712e2236555",
+    "sha256": "81e890137bd5349a3ea042cafee226eae92c1cfb6c9fd72958dcba07cf3f6a38"
+  }
+]

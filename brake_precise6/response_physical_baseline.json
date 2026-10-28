@@ -1,0 +1,132 @@
+{
+  "input_complete_reports": 324,
+  "malformed_VIS_lines": 0,
+  "all_reports": {
+    "reports": 324,
+    "usable_reports": 308,
+    "estimated_report_span_seconds": 80.75,
+    "error_pixels": {
+      "mean": -105.929,
+      "mean_absolute": 235.968,
+      "rms": 323.211,
+      "peak_absolute": 838,
+      "within_configured_deadzone_percent": 21.75
+    },
+    "P_range": [
+      -101,
+      29
+    ],
+    "fault_codes": [],
+    "invalid_or_stale_reports": 16,
+    "encoder_error_max": 0
+  },
+  "automatic_sessions": [
+    {
+      "number": 1,
+      "center": 822,
+      "settings": {
+        "G": 4,
+        "L": 12,
+        "DZ": 20,
+        "KD": 12,
+        "SL": 2,
+        "RU": 30
+      },
+      "last_EL_seconds": 20,
+      "stop_reason": 5,
+      "whole": {
+        "reports": 83,
+        "usable_reports": 83,
+        "estimated_report_span_seconds": 20.5,
+        "error_pixels": {
+          "mean": -303.169,
+          "mean_absolute": 416.47,
+          "rms": 474.169,
+          "peak_absolute": 597,
+          "within_configured_deadzone_percent": 14.46
+        },
+        "P_range": [
+          -11,
+          11
+        ],
+        "fault_codes": [],
+        "invalid_or_stale_reports": 0,
+        "encoder_error_max": 0
+      },
+      "last_40_reports": {
+        "reports": 40,
+        "usable_reports": 40,
+        "estimated_report_span_seconds": 9.75,
+        "error_pixels": {
+          "mean": -596.675,
+          "mean_absolute": 596.675,
+          "rms": 596.675,
+          "peak_absolute": 597,
+          "within_configured_deadzone_percent": 0.0
+        },
+        "P_range": [
+          -11,
+          -11
+        ],
+        "fault_codes": [],
+        "invalid_or_stale_reports": 0,
+        "encoder_error_max": 0
+      }
+    },
+    {
+      "number": 2,
+      "center": 537,
+      "settings": {
+        "G": 3,
+        "L": 24,
+        "DZ": 5,
+        "KD": 12,
+        "SL": 2,
+        "RU": 30
+      },
+      "last_EL_seconds": 29,
+      "stop_reason": "capture ended while running",
+      "whole": {
+        "reports": 117,
+        "usable_reports": 116,
+        "estimated_report_span_seconds": 29.0,
+        "error_pixels": {
+          "mean": 72.724,
+          "mean_absolute": 191.103,
+          "rms": 248.086,
+          "peak_absolute": 838,
+          "within_configured_deadzone_percent": 0.86
+        },
+        "P_range": [
+          -23,
+          24
+        ],
+        "fault_codes": [],
+        "invalid_or_stale_reports": 1,
+        "encoder_error_max": 0
+      },
+      "last_40_reports": {
+        "reports": 40,
+        "usable_reports": 40,
+        "estimated_report_span_seconds": 9.75,
+        "error_pixels": {
+          "mean": 104.45,
+          "mean_absolute": 212.4,
+          "rms": 312.737,
+          "peak_absolute": 838,
+          "within_configured_deadzone_percent": 0.0
+        },
+        "P_range": [
+          -23,
+          12
+        ],
+        "fault_codes": [],
+        "invalid_or_stale_reports": 0,
+        "encoder_error_max": 0
+      }
+    }
+  ],
+  "limits": "Pixel statistics describe only captured valid reports. Nominal report period250ms; dropped lines distort time estimates. No angle/length calibration, automatic pass/fail, or physical stability certification.",
+  "capture": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261023_VIS5_提速前\\diagnostic\\logs\\20261023_210219_921.txt",
+  "human_feedback": "Direction correct; partial improvement after tuning; still slow and conservative (2026-10-23)."
+}

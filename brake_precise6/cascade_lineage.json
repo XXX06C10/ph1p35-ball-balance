@@ -1,0 +1,14 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261024_VIS5_串级改造前",
+  "archive_zip": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261024_VIS5_串级改造前.zip",
+  "old_bit_sha256": "3913b7eec4bbc473770272a9da1affe7a20817ba64f9aeb67295dbe7b546197c",
+  "date": "2026-10-24",
+  "approved_fault_hold": true,
+  "finite_K2_calibration": true,
+  "algorithm_references": {
+    "D:\\AAAProject\\TI123\\B站 球杆平衡系统2026.07.29\\球杆平衡控制系统\\WHEELTEC_APP\\RobotControl_task.c": "30b0165d9167bf59950f277843ffe9624d8b265a17b5ebe973ffb56b0dc28a72",
+    "D:\\AAAProject\\TI123\\ballance-ball\\System\\System.c": "d2fd758cb7ce010984543f9f9cfab580ee25be2189b51208bc78f6174c88a3f2"
+  },
+  "reference_role": "algorithm references only; motor origin/IO/guards follow passed FPGA lineage",
+  "hold_release": "D:\\AAAProject\\FPGA\\AAA_LookHere\\交付_20261024_保护保持锁定"
+}

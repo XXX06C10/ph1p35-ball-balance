@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/user-lqt/mspm0g3507-ball-balance-car",
+  "tree": "0611d969c8b4ccaad79fcc69d6b52d93e2ca8b31",
+  "files": {
+    "BSP/ball_cascade_pid.c": "c277cad19025cb41a007069e1926b771a65c208ac21bfe2fdabd73c005849106",
+    "BSP/ball_cascade_pid.h": "0173ac0bb752e49a1dd3270194e2bc5718accc9564c259b2c5098070e3bed7b0",
+    "Hardware/demo_config.h": "57cee83580e6f829ffe7f6b456c71898b677d975321e701fcd69fb0aec3df497",
+    "Control/closed_loop.c": "34fea5cd0c61abc32119bc0f57f5bfc7cc99574da8bba82062b9725768e577fd",
+    "Control/app_demo.c": "b38e9a6c9e0fdc5edfc2add8a72a291608dd9154d1f3dd0013bc43e471638477",
+    "Hardware/motor.c": "ffd04233f14b5aafec527d223cab73541ede8de9c34983872f9e526003ee30b4",
+    "empty.c": "bec51446a7189198d797c1a3ed95565f6961b9deee31dc242cc6905ec04d4ff6",
+    "LICENSE": "39194b5c3b55885febb36e3a0b48d8e08d87af135f6c509e9790338e80171ec8"
+  },
+  "role": "untrusted algorithm reference only;not executed or used as motor/IO baseline"
+}

@@ -1,0 +1,20 @@
+{
+  "source_files_changed_or_added": [
+    "build.ps1",
+    "host/vision_panel_cn.ps1",
+    "implement_neutral_host.py",
+    "neutral_contract.py",
+    "prepare_neutral.py",
+    "publish_neutral.py",
+    "reproduce_neutral_before.ps1",
+    "rtl/vision_follow_control.v",
+    "rtl/vision_monitor.v",
+    "rtl/vision_monitor_all.v",
+    "run_sim.ps1",
+    "sim/tb_follow.v",
+    "sim/tb_neutral.v",
+    "sim/tb_response.v",
+    "update_neutral_verifier.py",
+    "verify.py"
+  ]
+}

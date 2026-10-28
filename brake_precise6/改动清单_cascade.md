@@ -1,0 +1,36 @@
+# cascade改动清单
+
+- build.ps1
+- cascade_contract.py
+- compose.py
+- host/cascade_controls.ps1
+- host/cascade_protocol.ps1
+- host/cascade_protocol.py
+- host/fit_cascade.py
+- host/vision_panel_cn.ps1
+- integrate_cascade.py
+- publish_cascade.py
+- rtl/enable_latch.v
+- rtl/vision_cascade_config.v
+- rtl/vision_cascade_control.v
+- rtl/vision_cascade_diag.v
+- rtl/vision_cascade_outer.v
+- rtl/vision_monitor.v
+- rtl/vision_monitor_all.v
+- rtl/vision_report_tx.v
+- rtl/vision_servo_core.v
+- run_sim.ps1
+- sim/tb_cascade.v
+- sim/tb_cascade_config.v
+- sim/tb_cascade_plant.v
+- sim/tb_center.v
+- sim/tb_fast.v
+- sim/tb_follow.v
+- sim/tb_hold.v
+- sim/tb_outer.v
+- sim/test_cascade_host.py
+- user_source/hdl_source/design_top_wrapper.v
+- verify.py
+- verify_hold.py
+
+新增C/D1、观察器/内环/有限标定、主机拟合和验证。既有P/V/S、VIS5字节函数、手动FSM、编码器原点、相机/检测/IP、引脚/时钟均有静态冻结检查。完整差异见cascade_changes.diff。

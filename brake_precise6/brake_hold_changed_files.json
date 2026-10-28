@@ -1,0 +1,82 @@
+[
+  {
+    "path": "rtl/vision_region_hold.v",
+    "parent_sha256": "6dfd14111d2b3c7bf29fa00402e01e56402664271dd972251cc53aee96361626",
+    "sha256": "2d9126c0de850feafcd0ad44a4e03eb6c99a314cee32d63e2390ad5b4c93a816"
+  },
+  {
+    "path": "rtl/vision_cascade_control.v",
+    "parent_sha256": "7d592974ed153a6a0732c0ca04d3993f41d00d9e9763dbd668958cd31151c318",
+    "sha256": "52889eaeeb23c5482c16b991099aec420d408509b817be4a47a4b29e8a15d375"
+  },
+  {
+    "path": "rtl/vision_monitor_all.v",
+    "parent_sha256": "85a084c32f0b0a7456b431bb2af48efb031fa9d2909ba7a9b98a7c3cd6d089a6",
+    "sha256": "18bfafe5af73fc5aaacd47abdc0d5a0d2ab68aaea06a1125ce9d22b7f450ccec"
+  },
+  {
+    "path": "build.ps1",
+    "parent_sha256": "c9c7426325f3af9b3cf8acde552d7d081a611e9ba443c623bc4660c0e3d970e8",
+    "sha256": "2da97806b8cbe80f7a1a82e65e03eed596a65b936bc7e6cd8a804c4ca5e8da5b"
+  },
+  {
+    "path": "run_sim.ps1",
+    "parent_sha256": "a17c1240e9661fd0bd7b145c37748a064518a6aefcb48af67247891eff2dfe21",
+    "sha256": "472bd0e1b18de62c71dd6f198570842fbaf686050d41e26dc0b7e84166f8a7eb"
+  },
+  {
+    "path": "run_brake_regression.ps1",
+    "parent_sha256": null,
+    "sha256": "fa1b17a5be9f0ee6f5c3232b8020b103c16c33cac43b7e3b26436050b522ec02"
+  },
+  {
+    "path": "sim/tb_brake_hold.v",
+    "parent_sha256": null,
+    "sha256": "264713bddff9103013e4b56c78b86184db55145a3974fe1d0eebdf1fc1548142"
+  },
+  {
+    "path": "brake_hold_contract.py",
+    "parent_sha256": null,
+    "sha256": "10ae0d6e31665f0cf49656db94f4829eb1fd53c317df6508134decd083d102ea"
+  },
+  {
+    "path": "verify_brake_hold.py",
+    "parent_sha256": null,
+    "sha256": "12ca09dd190f9502afc0646fd903dd19aa47858d1204b45e182302f20e48110b"
+  },
+  {
+    "path": "publish_brake_hold.py",
+    "parent_sha256": null,
+    "sha256": "7e11eba42a40714c95fd0153c5d05de150b84ee80364724ba39ec76a21acbb88"
+  },
+  {
+    "path": "analyze_brake_log.py",
+    "parent_sha256": null,
+    "sha256": "da332e4ede0285e3e80537bdff9f148c21f2e570e2a6179e0aa44ef3e5a4a1f9"
+  },
+  {
+    "path": "brake_hold_diagnosis.json",
+    "parent_sha256": null,
+    "sha256": "16b84aa10869e4a15f53e212f6de9250e5def195e12e57fa23027324ceea5c75"
+  },
+  {
+    "path": "brake_hold_lineage.json",
+    "parent_sha256": null,
+    "sha256": "b51307cd5b0c7786524b6e8f3ba156d6cb2963523e64ecd78728c65b19f2973b"
+  },
+  {
+    "path": "制动与稳区_测试说明.md",
+    "parent_sha256": null,
+    "sha256": "73b3b23c7671fb48eea9382278984583ac9545b63caa31d6f87acb5f0eace327"
+  },
+  {
+    "path": "AGENTS.md",
+    "parent_sha256": "47cc05e27351e2f80616ef5f1d8e763604d74bb62a81320256177e98bda485db",
+    "sha256": "b4a5d274ea35bd28beecec569182a7447bfbb0f1326b61c90d6863d367614c91"
+  },
+  {
+    "path": "README.md",
+    "parent_sha256": "c574803ea4134762aca2915cb96d560ed52357778f01cbd841a8dc4ba395856e",
+    "sha256": "b99f261f092574c8e6892a9dac6761134c848a82690337fa905009c9e988f212"
+  }
+]

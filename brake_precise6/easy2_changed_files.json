@@ -1,0 +1,24 @@
+{
+  "changes": [
+    "rtl/vision_cascade_control.v",
+    "rtl/vision_cascade_outer.v",
+    "rtl/vision_monitor.v",
+    "rtl/vision_monitor_all.v",
+    "rtl/vision_servo_core.v",
+    "host/cascade_controls.ps1",
+    "host/vision_panel_cn.ps1",
+    "sim/tb_cascade_plant.v",
+    "sim/tb_checkpoint.v",
+    "sim/tb_easy.v",
+    "sim/tb_outer.v",
+    "sim/tb_replay.v",
+    "sim/tb_replay_old.v",
+    "user_source/hdl_source/design_top_wrapper.v",
+    "build.ps1"
+  ],
+  "manual_FSM_changed": false,
+  "common_guards_changed": false,
+  "checkpoint_budget": 48,
+  "relative_limit": 48,
+  "observer_reset_pixels": 128
+}

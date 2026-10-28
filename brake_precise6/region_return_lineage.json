@@ -1,0 +1,9 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\region_return_archive_20261025",
+  "probe_bit_sha256": "12dbbcc0634074aee8ed291b398ba2fc5ece85b6539b876b4dd0bc925a802666",
+  "easy3_bit_sha256": "3dd2dcd015b9607753f99933919fd81f27313154d5f370da4969461b2327fe97",
+  "baseline_area": {
+    "path": "evidence/region_return_before/baseline_phy.area",
+    "sha256": "5f08e28499af0b12a780fe8a275cbe2bdfc1ffad87cb1ee2fd554c48f8007862"
+  }
+}

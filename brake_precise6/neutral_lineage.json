@@ -1,0 +1,10 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261023_VIS5_中立位修正前",
+  "archive_zip": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261023_VIS5_中立位修正前.zip",
+  "old_bit_sha256": "828b027854027223edee74cae75bd4df50d846f2cba7762b831ec9ede6f4a8da",
+  "date": "2026-10-23",
+  "source_log_sha256": "dd2bc448b7383b0517e13a2c98fe97346a29e6a2af4e98df3ffce7e29e61a63b",
+  "human_confirmed_level_before_K3": true,
+  "human_manual_intervention_during_capture": true,
+  "change": "K3 records AUTO control neutral from current P, without resetting encoder origin/MC/guards. T/AT remain absolute targets; AUTO L becomes deviation limit around neutral, hard target±60 and feedback/MC±64 retained. No movement on K3 or auto restart."
+}

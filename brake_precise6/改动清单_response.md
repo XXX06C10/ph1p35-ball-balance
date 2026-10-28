@@ -1,0 +1,3 @@
+连续控制：vision_follow_control.v（20ms/分数缓变/细调）；vision_servo_core.v（仅AUTO时长选择）；vision_monitor.v（新默认/参数连接）；vision_config_rx.v（仅参数默认，解析/校验不改）。生成vision_monitor_all.v同步。
+
+面板合并独立诊断版：区分球/电机到位、角度、限幅提示、回参考准备和日志定位；更新新版默认。新增tb_response.v、response_contract.py及归档/发布脚本；verify.py保留所有原核对再加提速验证。tb_loss、tb_plant验证配套新默认，其余特定旧模式用例显式保留旧配置，未放宽验收门槛。tb_follow改为等待指定DS3/RU0的真实新UART报告，避免把上次会话快照拿来验证新配置。所有检测/视频/引脚/时钟/有限动作基线不改。完整源文件清单见response_changed_files.json，逐行差异见response_changes.diff。

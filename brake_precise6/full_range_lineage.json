@@ -1,0 +1,7 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\full_range_archive_20261026",
+  "parent_bit_sha256": "8480c2f5d91b70dfce855df36b90357a4eb305f3f55643fb549cf8385513c94a",
+  "measurement": "measured_20261026_113513.txt",
+  "measurement_sha256": "7ac879e76f91ff5b94b9cb1125ccf85c27bb191d5d93c56945a37f84de1f3776",
+  "authorization": "User explicitly requires full working -16/+32deg, no added48count cap; preserve latest zone and fault protections"
+}

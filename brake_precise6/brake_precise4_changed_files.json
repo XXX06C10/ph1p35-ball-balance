@@ -1,0 +1,157 @@
+[
+  {
+    "file": "accepted_brake_precise3_20261027.json",
+    "before": null,
+    "after": "11770d95abbf447072264c14fc155f5472b08f5935460bab4679ae18217b78d0"
+  },
+  {
+    "file": "accepted_brake_precise3_git.json",
+    "before": null,
+    "after": "5a7926bb2098e988f2c7dde8544af0047035f82f859e19748b97d6333bc7e162"
+  },
+  {
+    "file": "AGENTS.md",
+    "before": "ad50c4ea3a5224a602cda2034b14e598e58266e2558b76fbb3d8308480a44d2a",
+    "after": "d44ab486116ffffb71ff05613049622dd4cd3b2708c28ec0c6c0761f841c6509"
+  },
+  {
+    "file": "analysis_102218_initial.json",
+    "before": null,
+    "after": "ea6f4b97930f11ac8c6b1f4a1d5d991f5392fb9c5e33ca5fa9a269d720d12890"
+  },
+  {
+    "file": "analyze_precise3_102218.py",
+    "before": null,
+    "after": "e79aedacb977ea46b418eb24f114d5437da4ece827cb4a7dc46284a7b4f09f6b"
+  },
+  {
+    "file": "brake_precise4_contract.py",
+    "before": null,
+    "after": "9cddf0b984879b9d74ca98f8876a25106f80393a15848349800ab56f8def6615"
+  },
+  {
+    "file": "brake_precise4_lineage.json",
+    "before": null,
+    "after": "3d76221adb91e6d700e14325d00bcdfcecd799c0bcd9ebb9684dadbbbce15dc3"
+  },
+  {
+    "file": "brake_precise4_required_suites.json",
+    "before": null,
+    "after": "71468b4e24247321a095e2adb5db3c74fac26956d45c5cce8c876e8d8a8d3674"
+  },
+  {
+    "file": "brake_precise4_verification.json",
+    "before": null,
+    "after": "36eba9c651a18d55c50397bfde80924723fc2b02d01a4562cab144fd049fc106"
+  },
+  {
+    "file": "build.ps1",
+    "before": "691c490b2c0e51da9338b1db8d4556a82935206f5fe90b4aa7402844b535ed65",
+    "after": "2249f40a2c56617b59ab4a678d530707daedd48726d918c570bfc0ee686474b2"
+  },
+  {
+    "file": "build_sources.json",
+    "before": "ea4796bf46708db37f716a52a39864e9c88cb3301504541a1811b0d55bd46198",
+    "after": "784bec32c336729480a6bf3acb96d1ca13f2526e50464d8a88dedea82bafdc6e"
+  },
+  {
+    "file": "commit_precise4.py",
+    "before": null,
+    "after": "ab36a740cd5992907c5c86e5f768d60969780975a99184a95a6ffbfb73dae41d"
+  },
+  {
+    "file": "finalize_precise4.py",
+    "before": null,
+    "after": "9ffef986f77d4d319d59a380cad5962d82a4eaaa61a156b0a05041beaac73bfa"
+  },
+  {
+    "file": "host/brake_precise4_controls.ps1",
+    "before": null,
+    "after": "c4849e4cbce77757999e1c120a0d93c3c79f0594a54e98f23687f19f52042249"
+  },
+  {
+    "file": "host/brake_precise4_panel_cn.ps1",
+    "before": null,
+    "after": "691417f73cd29f25403b062b27fbb7ddbdd1a56b116edf71189308f470ba3801"
+  },
+  {
+    "file": "host/physical_scale_precise4.json",
+    "before": null,
+    "after": "59e500b7e31535063de3cdf947b250cfbd053835edbb39a23b9673254e86df53"
+  },
+  {
+    "file": "host/physical_scale_precise4.ps1",
+    "before": null,
+    "after": "dafb5b92ffee8131faf14242725aa1aa3e6f6927db6ccb1cb026e3558285d184"
+  },
+  {
+    "file": "host/start_brake_precise4.cmd",
+    "before": null,
+    "after": "6b8a4893dd0fbdd03b64bcd3797f63a3b7350700baa5694f9ac337288e03c2ae"
+  },
+  {
+    "file": "prepare_precise4.py",
+    "before": null,
+    "after": "bb7b2725418acbe5da0d52d55c4de92842864f5a796d15978e55274a57792a83"
+  },
+  {
+    "file": "publish_brake_precise4.py",
+    "before": null,
+    "after": "9c91c2f95f276a6dcbe53024c239d75bd443e4ad81aaf2b9734cde544c8c5325"
+  },
+  {
+    "file": "README.md",
+    "before": "89826e6a729642afa7a0c6dc69566601fe0b61affc4c01d17a4e712c7f81165c",
+    "after": "782108c1d35d7a5bae4793938a57f9172a639421d4b11eed4c3820378d1c9c24"
+  },
+  {
+    "file": "routed_netlist.v",
+    "before": "7ba3b3e01af30b87d8e3498f1651acf9401df9473645e9de3be79ab508f21345",
+    "after": "16b4602f9fc4d29f69b5aa52d7acc770dbe59cd82a037571f06030003dba2619"
+  },
+  {
+    "file": "rtl/vision_monitor_all.v",
+    "before": "91ad1f990ac5acd77b5e6eebd245b29971dfd37362a5fd4e5bb7d201f25e869f",
+    "after": "bc7786e0b5bd62f83f683aed5f947d97b7d59d06a4fbb1aa254d67921aaf7341"
+  },
+  {
+    "file": "rtl/vision_region100.v",
+    "before": "045123a0710461d79f13db7f00871152e1e099db046b338c4813087d0e65e4d7",
+    "after": "918ca0ec8b4eb922ae66be6880d4c5da3ac92a1a4ef14aa50f6a9db326aa0a39"
+  },
+  {
+    "file": "run_brake_precise4_regression.ps1",
+    "before": null,
+    "after": "b26ef288900380016944f12b3cc2a2c03b387770cd18bdc35c08d63a21f309a6"
+  },
+  {
+    "file": "run_sim.ps1",
+    "before": "4430a88b486bae5ac2e3233164d72aaa4b7e7c89c0ae5059eeae4f093c2c7570",
+    "after": "f4ccda7f57dd437e443094b7536caf6b7b1d458cd7d18f81367830c88ad2b45f"
+  },
+  {
+    "file": "save_accepted_precise3.py",
+    "before": null,
+    "after": "5cc149414c3470f6a787525063dd37fe5452b6a7b14433610518a5da25f7a5b1"
+  },
+  {
+    "file": "sim/tb_precise4_noise.v",
+    "before": null,
+    "after": "2c88708210a7225725ab0fd3223fee8e07b0c2d48b26450716063dd8dde755e9"
+  },
+  {
+    "file": "verify_brake_precise4.py",
+    "before": null,
+    "after": "4f93f88f189d59571f5183099485013a1c070ebe817034eb2deb82c04a85dd0b"
+  },
+  {
+    "file": "精准回中4_测试说明.md",
+    "before": null,
+    "after": "41d3cfd405a344afdf9a82b055b75d08e7d04a638616fa3cd8f677fd4792b48f"
+  },
+  {
+    "file": "认可基准_20261027.md",
+    "before": null,
+    "after": "dba1364eed9f645c452898134d816dcbaa13a3c8112330d5c105ea51e6ae0b35"
+  }
+]

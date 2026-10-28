@@ -1,0 +1,21 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261024_一键回中前_cascade",
+  "parent_bit_sha256": "40f7f6c07e8726bc6dda9ad7141376dcddbfc88d4947d266981557a3b4a359c9",
+  "user_request": "K3 sets center;K2 continuously returns/holds ball;no manual calibration workflow;keep K1 enable and all fault/motion guards",
+  "preset": {
+    "kp": 819,
+    "kv": 40,
+    "ki": 131,
+    "inner_kp": 8192,
+    "feedforward": 200,
+    "max_hz": 100,
+    "slew_rate": 102,
+    "delay_ms": 20,
+    "polarity": 0,
+    "deadzone": 3,
+    "relative_limit": 32,
+    "runtime": 0
+  },
+  "physical_gain_identified": false,
+  "basis": "bounded initial preset; software scan of B=-5/-10/-20 assumed models; no identified physical model"
+}

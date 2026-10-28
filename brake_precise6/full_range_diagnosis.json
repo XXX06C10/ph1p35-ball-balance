@@ -1,0 +1,55 @@
+{
+  "status": "OBSERVATIONS_ONLY_NOT_PHYSICAL_IDENTIFICATION",
+  "file": "D:\\AAAProject\\FPGA\\AAA_LookHere\\full_range_archive_20261026/measured_20261026_113513.txt",
+  "D2_records": 16560,
+  "VIS6_records": 1439,
+  "bad_or_partial_lines": {
+    "other": 2
+  },
+  "boots": 1,
+  "sessions": [
+    {
+      "boot": 0,
+      "start_ms": 59120,
+      "end_ms": 65291,
+      "duration_ms": 6171,
+      "center": 573,
+      "valid_frames": 172,
+      "near_nonzero_direction_changes_including_separate_visits": 1,
+      "fast_inward_near_frames": 2,
+      "fast_inward_near_peak_command_hz": 187
+    },
+    {
+      "boot": 0,
+      "start_ms": 76240,
+      "end_ms": 129960,
+      "duration_ms": 53720,
+      "center": 973,
+      "valid_frames": 1471,
+      "near_nonzero_direction_changes_including_separate_visits": 11,
+      "fast_inward_near_frames": 22,
+      "fast_inward_near_peak_command_hz": 200
+    },
+    {
+      "boot": 0,
+      "start_ms": 133038,
+      "end_ms": 140360,
+      "duration_ms": 7322,
+      "center": 973,
+      "valid_frames": 203,
+      "near_nonzero_direction_changes_including_separate_visits": 0,
+      "fast_inward_near_frames": 2,
+      "fast_inward_near_peak_command_hz": 194
+    }
+  ],
+  "faults": {
+    "0": 6215,
+    "2": 10345
+  },
+  "stop_reason_fault_pairs": {
+    "(0, 0)": 484,
+    "(2, 0)": 43,
+    "(5, 0)": 13,
+    "(6, 2)": 899
+  }
+}

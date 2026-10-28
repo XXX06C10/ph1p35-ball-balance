@@ -1,0 +1,114 @@
+{
+  "status": "SOFTWARE_BUILD_PASS_AWAITING_PHYSICAL_EASY3_TEST",
+  "date": "2026-10-25",
+  "device": "PH1P35MDG324",
+  "delivery_bit": "D:\\AAAProject\\FPGA\\HX1P35A_Contest_202606\\exercise\\vision_follow_20261022\\output\\vision_follow_20261022_easy3.bit",
+  "bit": "D:\\AAAProject\\FPGA\\HX1P35A_Contest_202606\\exercise\\vision_follow_20261022\\output\\vision_follow_20261022_easy3.bit",
+  "sha256": "3dd2dcd015b9607753f99933919fd81f27313154d5f370da4969461b2327fe97",
+  "timing_ns": {
+    "SWNS": 0.056,
+    "STNS": 0.0,
+    "HWNS": 0.021,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": 19753,
+    "register": 19780,
+    "IO": 76,
+    "ERAM": 45,
+    "DSP": 36
+  },
+  "STA_coverage_percent": 97.69,
+  "simulations": [
+    "tb_full",
+    "tb_detector",
+    "tb_camera",
+    "tb_motion",
+    "tb_center",
+    "tb_large",
+    "tb_follow",
+    "tb_plant",
+    "tb_loss",
+    "tb_response",
+    "tb_neutral",
+    "tb_hold",
+    "tb_outer",
+    "tb_fast",
+    "tb_cascade",
+    "tb_cascade_config",
+    "tb_cascade_plant",
+    "tb_easy",
+    "tb_easy_plant",
+    "tb_checkpoint",
+    "tb_replay",
+    "tb_braking",
+    "tb_braking_plant"
+  ],
+  "inherited_rgb": {
+    "status": "PARENT_FULL_PASS_UNCHANGED_VIDEO_AND_LEGACY_PATH",
+    "source": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261024_一键回中前_cascade\\published\\sim\\results\\tb_rgb.log",
+    "frames": 18,
+    "current_video_rerun_completed": false
+  },
+  "legacy_report_bytes": 429,
+  "diagnostic_bytes": 94,
+  "C_packet_bytes": 54,
+  "fault_policy": "F1-F8 latch/STEP inhibited;retain establishedEN;K1release-only,K4/reset release;no fault restart",
+  "guards": {
+    "segment_pulses": 64,
+    "segment_timeout_s": 5,
+    "MC_net_limit": 64,
+    "P_limit": 64,
+    "absolute_target": 60,
+    "manual_deadband": 2,
+    "follow_arrival": 1
+  },
+  "physical_test": "PENDING_UNTOUCHED_K3_K2_PREDICTIVE_BRAKING_LOGS",
+  "physical_stability_claim": false,
+  "preset": {
+    "kp": 819,
+    "kv": 64,
+    "ki": 131,
+    "inner_kp": 8192,
+    "feedforward": 200,
+    "max_hz": 200,
+    "slew_rate": 200,
+    "delay_ms": 20,
+    "polarity": 0,
+    "deadzone": 3,
+    "relative_limit": 60,
+    "runtime": 0
+  },
+  "checkpoint": {
+    "start_pulses": 48,
+    "start_ms": 3500,
+    "quiet_ms": 40,
+    "net_ratio_counts_per_pulse": 1.28125,
+    "tolerance_counts": 4,
+    "faults_auto_cleared": false,
+    "origin_MC_reset": false
+  },
+  "replay": "actual recorded camera coordinates,simulated trueAB12ms1.28;archived easy reproducesF5;new>200pulses with verified segment boundaries",
+  "startup": "RU0,CASCADE_DEFAULT1/CASCADE_PRESET1;K1 enable,K3 center,K2 continuous return;no host calibration prerequisite",
+  "control": "preset frame-time fast velocity,actuator reversal lookahead80ms+5ms/count,bounded piecewise speed envelope,13-stage outer;custom C keeps alpha-beta PD;5ms ramp/inner;20ms command prediction;200Hz preset",
+  "phase_flags": {
+    "predictive_active": 11,
+    "control_phase": "bits10:9,0drive/1brake/2capture"
+  },
+  "model": "continuous integrated position fitting,3cycle cross-validation R2>=.70;bounded offline gain search;no physical pass from simulation",
+  "known_clock_routing_notices": [
+    "PHY-5060 CRITICAL-WARNING: Clock net candidate u_uicfgcs500/uii2c_inst/scl_clk has mixed fanouts of 1 clock pins; 2 data/ctrl pins. Please check connection of the net in design.",
+    "PHY-5060 CRITICAL-WARNING: Clock net candidate O_cam_24m_syn_3 has mixed fanouts of 249 clock pins; 1 data/ctrl pins. Please check connection of the net in design.",
+    "PHY-5079 CRITICAL-WARNING: Marked 1 clock net(s) utilize the local routing resources. Please check log message and the sinks of clock nets.",
+    "PHY-5079 CRITICAL-WARNING: Marked 1 clock net(s) utilize the local routing resources. Please check log message and the sinks of clock nets."
+  ],
+  "motor_mirror_drivers": {
+    "O_motor_step": "O_motor_step_v2_dup_1",
+    "O_motor_step_v2": "O_motor_step_v2_dup_1",
+    "O_motor_dir": "O_motor_dir_v1_dup_1",
+    "O_motor_dir_v1": "O_motor_dir_v1_dup_1",
+    "O_motor_en": "\\u_vision_monitor/motor_core/done_i3_syn_8",
+    "O_motor_en_u2": "\\u_vision_monitor/motor_core/done_i3_syn_8"
+  },
+  "automatic_programming": false
+}

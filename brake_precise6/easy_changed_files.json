@@ -1,0 +1,16 @@
+{
+  "changes": [
+    "rtl/vision_cascade_config.v",
+    "rtl/vision_monitor.v",
+    "rtl/vision_monitor_all.v",
+    "host/cascade_controls.ps1",
+    "host/vision_panel_cn.ps1",
+    "sim/tb_cascade_plant.v",
+    "sim/tb_easy.v",
+    "sim/tb_easy_plant.v",
+    "build.ps1",
+    "user_source/hdl_source/design_top_wrapper.v"
+  ],
+  "motor_algorithms_changed": false,
+  "pins_clocks_changed": false
+}

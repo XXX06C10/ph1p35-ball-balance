@@ -1,0 +1,41 @@
+"""Package the verified regional return controller. No serial port or board programming."""
+from pathlib import Path
+import hashlib,json,shutil,zipfile,subprocess,sys
+from asym_range_contract import check
+R=Path(__file__).resolve().parent;look=Path('D:/AAAProject/FPGA/AAA_LookHere')
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+check();v=json.loads((R/'asym_range_verification.json').read_text(encoding='utf-8'))
+assert v['status']=='SOFTWARE_ROUTING_PASS_AWAITING_PHYSICAL_ASYM_RANGE' and len(v['suites'])==36
+subprocess.run([sys.executable,'source_manifest.py','--check'],cwd=R,check=True)
+for rel,h in v['wide_schema_sha256'].items():assert sha(R/rel)==h,'schema changed after verification '+rel
+for rel,h in v['paired_host_sha256'].items():assert sha(R/rel)==h,'host changed after verification '+rel
+bit=R/v['bit'];assert sha(bit)==v['sha256']
+shutil.copy2(bit,R/'output/asym_range.bit')
+assert sha(R/'output/region_return.bit')=='c011938f8dd05c396041fb61d1543dc502f5188e9c642726f882e26f41194742'
+assert sha(R/'output/vision_follow_20261022_easy3.bit')=='3dd2dcd015b9607753f99933919fd81f27313154d5f370da4969461b2327fe97'
+(R/'output/asym_range_sha256.txt').write_text(v['sha256']+'  asym_range.bit\n'+v['sha256']+'  vision_follow_20261022_asym_range.bit\n',encoding='ascii')
+guide=R/'不对称角度_测试说明.md';shutil.copy2(guide,R/'测试说明.md')
+paths=[]
+for folder in ['rtl','user_source','td_project','host','sim','references']:
+ for p in (R/folder).rglob('*'):
+  if p.is_file() and not any(part in ('__pycache__','.git') for part in p.parts) and p.suffix not in ('.vvp','.pyc','.db','.logw','.bak'):
+   paths.append(p)
+paths += [p for p in R.iterdir() if p.is_file() and p.suffix in ('.py','.ps1','.tcl','.md','.json','.diff')]
+paths += [p for p in (R/'output').iterdir() if p.is_file() and (p.name in ['asym_range.bit','asym_range_sha256.txt','vision_follow_20261022_asym_range.bit','vision_follow_20261022_easy3.bit','vision_follow_20261022_easy2.bit','region_probe.bit','region_return.bit','vision_follow_20261022_region_return.bit'])]
+run=R/'vision_follow_20261022_Runs/phy_1'
+paths += [run/name for name in ['vision_follow_20261022_phy.area','vision_follow_20261022_phy.ts','vision_follow_20261022_pr.timing']]
+paths += [R/'build.log',R/'routed_netlist.v',R/'evidence/region_return_before/baseline_phy.area']
+paths += [p for p in (R/'evidence/asym_dense_attempt1').rglob('*') if p.is_file()]
+manifest=R/'asym_range_delivery_manifest.json'
+paths=sorted(set(paths)-{manifest})
+files={p.relative_to(R).as_posix():sha(p) for p in paths}
+data={'status':v['status'],'device':v['device'],'bit_sha256':v['sha256'],'source_of_truth':'asym_range_verification.json; old verification.json describes historical easy3 only','files':files}
+manifest.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
+dest=look/'VIS6_asym_range_20261025.zip'
+with zipfile.ZipFile(dest,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+ for p in paths+[manifest]:z.write(p,p.relative_to(R).as_posix())
+with zipfile.ZipFile(dest) as z:
+ assert z.testzip() is None
+ for rel,h in files.items():assert hashlib.sha256(z.read(rel)).hexdigest()==h,'packaged mismatch '+rel
+(look/'VIS6_asym_range_20261025_sha256.txt').write_text(sha(dest)+'  '+dest.name+'\n',encoding='ascii')
+print('ASYM_RANGE_PUBLISHED',len(files),'files',dest,'ZIP_SHA256',sha(dest),'BIT_SHA256',v['sha256'])

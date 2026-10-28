@@ -1,0 +1,152 @@
+[
+  {
+    "file": "AGENTS.md",
+    "before": "af157811779d94b86bec9b033a4dfdfc92f1ab43ff7cfb21f93c425e8e8df215",
+    "after": "ad50c4ea3a5224a602cda2034b14e598e58266e2558b76fbb3d8308480a44d2a"
+  },
+  {
+    "file": "brake_precise3_contract.py",
+    "before": null,
+    "after": "3e66c227d34cba6f040918140710bb00d36429491cebaca602375dfaa8ce2c54"
+  },
+  {
+    "file": "brake_precise3_lineage.json",
+    "before": null,
+    "after": "dcac00e5a9902a7927af3f6a9b07ce90d0bac175b503f5ee80a23aafdd0ca615"
+  },
+  {
+    "file": "brake_precise3_required_suites.json",
+    "before": null,
+    "after": "333b0c63fe2a570041454e5e0636c1bb5ec65af2cca11f138b8cebc4b2e9695b"
+  },
+  {
+    "file": "brake_precise3_verification.json",
+    "before": null,
+    "after": "85c4ac7082ea517a8a5157ff7ae95b68f83a44124d749818e44542c1641a55f0"
+  },
+  {
+    "file": "build.ps1",
+    "before": "b2f459a5bc299e47ebf2b061e79f8f0b5fc6b8ebbde7941e335666c299799205",
+    "after": "691c490b2c0e51da9338b1db8d4556a82935206f5fe90b4aa7402844b535ed65"
+  },
+  {
+    "file": "build_sources.json",
+    "before": "d4883e06e5bd16287fef46ed51182ba57c52d9cb3b30b04afe9c298fc01a5939",
+    "after": "ea4796bf46708db37f716a52a39864e9c88cb3301504541a1811b0d55bd46198"
+  },
+  {
+    "file": "configure_precise3.py",
+    "before": null,
+    "after": "f23b2f972983e26a5e6ce933e8405e7f77da7cbea604302789159fabfde700c3"
+  },
+  {
+    "file": "document_precise3.py",
+    "before": null,
+    "after": "1b8b787eb8f085add24c36b934653a7bbca598efbf3e6e5e1a27e0d5bd50aff9"
+  },
+  {
+    "file": "finalize_precise3.py",
+    "before": null,
+    "after": "9c941c3e7195fc884321ed398b8627b115a32d04e8a33a3c2372927bff60255d"
+  },
+  {
+    "file": "host/brake_precise3_controls.ps1",
+    "before": null,
+    "after": "8b9a21859e2e2045077e929990fea53404e5e663f82113735423465155b87b24"
+  },
+  {
+    "file": "host/brake_precise3_panel_cn.ps1",
+    "before": null,
+    "after": "577490d423d038941ed94628e63f23ea52467de96c8c0a656ea0067d1aac65fe"
+  },
+  {
+    "file": "host/start_brake_precise3.cmd",
+    "before": null,
+    "after": "9791a46b810440d932bbfd5398fc1bcd839e736d0f920e5af23b35ee07be49df"
+  },
+  {
+    "file": "publish_brake_precise3.py",
+    "before": null,
+    "after": "8cae1a4fb12a5859e64bad1f7ee895e24655348e6e3aebd87b769247ca724542"
+  },
+  {
+    "file": "README.md",
+    "before": "655efe7b3f875c00f97a96776931bfdd83475f4a0c4efb57d4c3f90a567d7431",
+    "after": "89826e6a729642afa7a0c6dc69566601fe0b61affc4c01d17a4e712c7f81165c"
+  },
+  {
+    "file": "routed_netlist.v",
+    "before": null,
+    "after": "7ba3b3e01af30b87d8e3498f1651acf9401df9473645e9de3be79ab508f21345"
+  },
+  {
+    "file": "rtl/vision_monitor.v",
+    "before": "81767a206dad60e2f1ef34ad346b3d660f8de943dc3d5b5c8168a2b5a3f351b1",
+    "after": "0b8d204e9dceaf607acc3193a679b42a5ecbfe8e0cf87b59740ed9bdf5f7d21b"
+  },
+  {
+    "file": "rtl/vision_monitor_all.v",
+    "before": "526461df4de1643cf42d93e37ecc447a71c5f841b0559887efe27755a8777134",
+    "after": "91ad1f990ac5acd77b5e6eebd245b29971dfd37362a5fd4e5bb7d201f25e869f"
+  },
+  {
+    "file": "rtl/vision_region100.v",
+    "before": "3482616ff2eb3c5edde1e8d034e9493a8fa00a7cd92b4a2828ea7ce20a36078e",
+    "after": "045123a0710461d79f13db7f00871152e1e099db046b338c4813087d0e65e4d7"
+  },
+  {
+    "file": "rtl/vision_servo_core.v",
+    "before": "d9321d85c1a6edebb0f5e1c2382cb827eacdf534fd9ba61640a8bbc149610f75",
+    "after": "c1eaea2352a948dce985705ba18b4c167cb8912929b20ceb77ba49954a7108e1"
+  },
+  {
+    "file": "run_brake_precise3_regression.ps1",
+    "before": null,
+    "after": "fedfcdea0304148405ddb8414b928fbc49ed0c5a0723020950e2cc8344695cd0"
+  },
+  {
+    "file": "run_sim.ps1",
+    "before": "a80ac857ab8cb062134245aa8b238a433cc2581e76345393d975a0c165878d37",
+    "after": "4430a88b486bae5ac2e3233164d72aaa4b7e7c89c0ae5059eeae4f093c2c7570"
+  },
+  {
+    "file": "sim/tb_asym_faults.v",
+    "before": "93757ff0125e3c83cc92fff1f713cd780224c7bdba56cb36e7a06cf15e10e3fd",
+    "after": "552b05d816bd8a11a859dbd8e508e047e968e7b2d96773dbd151565f01b4aba7"
+  },
+  {
+    "file": "sim/tb_brake_fast_policy.v",
+    "before": "b72c9b4a16027ba2744c124dc38c667543263f0e427bef6ba929cc2c6b04bc20",
+    "after": "7080cdec1ad661f7cecdbb6eea5d2fc307628fdc5911da74c2b5a8f93c0acb08"
+  },
+  {
+    "file": "sim/tb_brake_fast_runtime.v",
+    "before": "1f576cd0a99769a123046315f944d0b76676f84cc251e3c00c1d87e75ae0318a",
+    "after": "c9a46a0049fccea0c89c77c53f960824a9391775c4f12d86a9d9d41d5c93c97d"
+  },
+  {
+    "file": "sim/tb_precise3_policy.v",
+    "before": null,
+    "after": "d16ed1fb10b74247d64e465678950f1ee9387f8500c9280cdd1d443cb191aae7"
+  },
+  {
+    "file": "sim/tb_reversal_recovery.v",
+    "before": null,
+    "after": "97f9da98a33c898b1e41eb29566627f81a8f70f082f77735780068c1a76b589f"
+  },
+  {
+    "file": "verify_brake_precise3.py",
+    "before": null,
+    "after": "c1375a56a5163c1285b534b18e096f315e813f8cd11c2f61ee23945432a0654a"
+  },
+  {
+    "file": "verify_recovery_evidence.py",
+    "before": null,
+    "after": "cbc19098e6614512c1ed2e9762f93c1e4e3b9bc7a981f5640f4c703f6d473f99"
+  },
+  {
+    "file": "精准回中3_测试说明.md",
+    "before": null,
+    "after": "d35d0428fa4a8daf5610b48f0da9ee84d6e6cf490773420a16d57cb5e22149d8"
+  }
+]

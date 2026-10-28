@@ -1,0 +1,59 @@
+{
+  "status": "OBSERVATIONS_ONLY_NOT_PHYSICAL_IDENTIFICATION",
+  "file": "host/logs/20261026_164017_278.txt",
+  "D2_records": 2885,
+  "VIS6_records": 251,
+  "bad_or_partial_lines": {
+    "D2": 1
+  },
+  "boots": 1,
+  "sessions": [
+    {
+      "boot": 0,
+      "start_ms": 26900,
+      "end_ms": 77063,
+      "duration_ms": 50163,
+      "center": 672,
+      "valid_frames": 1378,
+      "near_nonzero_direction_changes_including_separate_visits": 12,
+      "fast_inward_near_frames": 30,
+      "fast_inward_near_peak_command_hz": 50
+    }
+  ],
+  "faults": {
+    "0": 2885
+  },
+  "stop_reason_fault_pairs": {
+    "(0, 0)": 251
+  },
+  "measurement_sha256": "dbfdec296f238b6b25f329520cd9ce2e0725b5b31d3e2dfaf59c56ae9c635e17",
+  "known_device_variant": "VIS6 wire does not uniquely identify loaded bit; user describes asym_smooth",
+  "active_D2_records": 2308,
+  "near100_records": 1455,
+  "near100_nonzero_frequency_records": 305,
+  "near100_peak_frequency_hz": 152,
+  "active_position_counts": [
+    -40,
+    190
+  ],
+  "active_motor_degrees_relative_anchor": [
+    -3.603515625,
+    16.611328125
+  ],
+  "fixed_work_counts": [
+    -181,
+    365
+  ],
+  "fixed_work_degrees_relative_anchor": [
+    -15.99609375,
+    31.9921875
+  ],
+  "actual_position_at_work_boundary_records": 0,
+  "VIS_candidate_at_work_boundary_records": 31,
+  "final_steady_tail_ms": 3463,
+  "final_ball_error_pixels": 90,
+  "final_motor_offset_counts": 11,
+  "old_hold_records": 58,
+  "physical_parameter_identification": false,
+  "conclusion": "No smaller angular limit in telemetry. Candidate saturates transiently while slew-limited actuator follows. Old30px region rarely holds; long final90px static offset remains tilted. New100px product region needs weaker fine attraction and explicit level hold."
+}

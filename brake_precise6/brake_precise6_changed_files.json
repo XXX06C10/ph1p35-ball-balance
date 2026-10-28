@@ -1,0 +1,132 @@
+[
+  {
+    "file": "AGENTS.md",
+    "before": "4db3848ff7a7dbd128dbe5f7776f330b5e7ccd01df9e5bd18792a55419b749f9",
+    "after": "899e7b79a6938562a4146a74b37b0c1c8ed9cc35cbbd899752763d15af571bbc"
+  },
+  {
+    "file": "analyze_precise5_211211.py",
+    "before": null,
+    "after": "18979815c8b52e751cb77d97e783e1bdc6febb0ea554a64d50178908e7c9c64a"
+  },
+  {
+    "file": "brake_precise6_contract.py",
+    "before": null,
+    "after": "3b8f54489c5548151ddb7186e2bba3e653f56ff4c71a78c7fe73160aa2840b7e"
+  },
+  {
+    "file": "brake_precise6_lineage.json",
+    "before": null,
+    "after": "96e66feca8a8890b0daa37bcd253e2eab962933686a9cc983174e2f7ae3cbac7"
+  },
+  {
+    "file": "brake_precise6_required_suites.json",
+    "before": null,
+    "after": "cabf5e66ec3d98a9187afa09241b544d84e2b5941ae2399b559198f82daecd5c"
+  },
+  {
+    "file": "brake_precise6_verification.json",
+    "before": null,
+    "after": "aced496e32551c47a0d0fcb71ee53ebe0801f93e46c9ffb6ba1c98c4f3d851a1"
+  },
+  {
+    "file": "build.ps1",
+    "before": "f7ef74aa24bbcaa1dc31dc2dc82221996532a19813268beb5a0950cb26324aa8",
+    "after": "e5ca17f37156e1d3820102d17547aca2818a2755f89699bbcb46669283ef71b9"
+  },
+  {
+    "file": "build_sources.json",
+    "before": "86e3c3efaaf29b345967bfce1317721150e54362035faf65b484bc4f0bbae069",
+    "after": "75c87c0ea8f36e7997b4149b8ddb7c45457062dc8546553664834ec78b4c8d84"
+  },
+  {
+    "file": "commit_precise6.py",
+    "before": null,
+    "after": "39d8c9d6444476d3df7ccfa1d085750fcfe9a72a85adaf5cdf0e0b87fd3391b4"
+  },
+  {
+    "file": "complete_precise6_release.py",
+    "before": null,
+    "after": "d9ab37ff167697d9342db40aa066f95b797d876905c972834eb1a7c820931494"
+  },
+  {
+    "file": "finalize_precise6.py",
+    "before": null,
+    "after": "8d3470df69aa128f25c1652bd434f0c3c46abbf6d7f8b43f1858136b2b8f9b06"
+  },
+  {
+    "file": "host/brake_precise6_controls.ps1",
+    "before": null,
+    "after": "57875dccc07a02a3c1af7e34329a4e798b061282024480a59b893d31df95f30d"
+  },
+  {
+    "file": "host/brake_precise6_panel_cn.ps1",
+    "before": null,
+    "after": "148603c8fef874ce5fdffc25b2fb61d087e249a7c19833ff8bbe9cb967659393"
+  },
+  {
+    "file": "host/start_brake_precise6.cmd",
+    "before": null,
+    "after": "d0122b296e1171de25c8bc13d6aa73fda903449a5309c7a9101764ff74d4e209"
+  },
+  {
+    "file": "prepare_precise6.py",
+    "before": null,
+    "after": "db1cc3d88c3493ffcd9e1476e262461920e802f6d926e77e303788be77d74766"
+  },
+  {
+    "file": "publish_brake_precise6.py",
+    "before": null,
+    "after": "a20d2994432f5bc36b0a01463b58d540b20a8731cc6d5bb64623a3d02008b53c"
+  },
+  {
+    "file": "README.md",
+    "before": "c7a439b25b9e5c9765743e7edec6e9a9a74be1dd6da202078b06061d021b070b",
+    "after": "17eacddef4f36f835a5c8a1b23afcb5da9cae0176b6f5cd7874fabd1d70e48c0"
+  },
+  {
+    "file": "rebuild_precise6_final.py",
+    "before": null,
+    "after": "0d19794a5922c82e360dab1cc3e7f6681cbe6adacffc21c807772640b914c4d6"
+  },
+  {
+    "file": "routed_netlist.v",
+    "before": "4aa7d92253a4f45a7668b4cd91779714194b0811630f5831c8710bc3222256eb",
+    "after": "1cd41d43d945b2836e14286ff980009bf63ad4d8e3ab38e118d6e7e65cb5b839"
+  },
+  {
+    "file": "rtl/vision_monitor_all.v",
+    "before": "ff60ed150cc6be406b6e904cc482f34ac207cd8994aceac9cd83ae9909f52aab",
+    "after": "d05b77488c14d6b6ecdf9112bbcd11d8b125435ae9fc38b48821dbd3ebf9f581"
+  },
+  {
+    "file": "rtl/vision_region100.v",
+    "before": "9a87ba7c1d1ec973b4ae1d9bc595b6bf9787c032af9ea989d34f7b4f1755267a",
+    "after": "fae13b68920611924fa378de6c1f59098370366a30559cadadb1c6515779a048"
+  },
+  {
+    "file": "run_brake_precise6_regression.ps1",
+    "before": null,
+    "after": "b2e72cfc9e36dc8d32316810e9b407faf68cf043a7f94dfce912868942c390cf"
+  },
+  {
+    "file": "run_sim.ps1",
+    "before": "76ee89044b71d8009ca56959e1a9980f2dae81d11229c1efbefa28c3816fb9a9",
+    "after": "0eb917b331dec21936518baa6eed3e1d66d94dfc99c3b00901b93004e9112065"
+  },
+  {
+    "file": "sim/tb_precise6_jitter.v",
+    "before": null,
+    "after": "7212f1706142022372875049e4d30106129e910d1da46d0729312c9565ec2d60"
+  },
+  {
+    "file": "verify_brake_precise6.py",
+    "before": null,
+    "after": "543d83312a6624b30b1de23dd369e3f55c08f56304274e3b5a9b2f97460ac07f"
+  },
+  {
+    "file": "精准回中6_测试说明.md",
+    "before": null,
+    "after": "3baeff6e2da825a3b2c3e8c844a81001fffee54cbec05fe8a73ee0877d2b2334"
+  }
+]

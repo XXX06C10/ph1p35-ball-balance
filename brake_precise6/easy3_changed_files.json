@@ -1,0 +1,25 @@
+{
+  "changes": [
+    "rtl/vision_cascade_config.v",
+    "rtl/vision_cascade_outer.v",
+    "rtl/vision_monitor.v",
+    "rtl/vision_monitor_all.v",
+    "rtl/vision_servo_core.v",
+    "host/cascade_controls.ps1",
+    "host/vision_panel_cn.ps1",
+    "sim/tb_braking.v",
+    "sim/tb_braking_plant.v",
+    "sim/tb_cascade_plant.v",
+    "sim/tb_easy.v",
+    "sim/tb_outer.v",
+    "sim/tb_replay.v",
+    "user_source/hdl_source/design_top_wrapper.v",
+    "build.ps1"
+  ],
+  "motor_core_changed_only_for_fast_direction_drain": true,
+  "checkpoint_changed": false,
+  "reference_executed": false,
+  "relative_limit": 60,
+  "max_hz": 200,
+  "predictive_only_builtin": true
+}

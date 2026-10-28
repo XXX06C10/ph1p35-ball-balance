@@ -1,0 +1,32 @@
+{
+  "status": "OBSERVATIONS_ONLY_NOT_PHYSICAL_IDENTIFICATION",
+  "file": "host/logs/20261026_195545_401.txt",
+  "D2_records": 8554,
+  "VIS6_records": 743,
+  "bad_or_partial_lines": {
+    "other": 7,
+    "D2": 2
+  },
+  "boots": 1,
+  "sessions": [
+    {
+      "boot": 0,
+      "start_ms": 58840,
+      "end_ms": 106200,
+      "duration_ms": 47360,
+      "center": 784,
+      "valid_frames": 1300,
+      "near_nonzero_direction_changes_including_separate_visits": 14,
+      "fast_inward_near_frames": 47,
+      "fast_inward_near_peak_command_hz": 50
+    }
+  ],
+  "faults": {
+    "0": 4218,
+    "4": 4336
+  },
+  "stop_reason_fault_pairs": {
+    "(0, 0)": 366,
+    "(6, 4)": 377
+  }
+}

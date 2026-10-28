@@ -1,0 +1,15 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\成功版本归档\\20261024_easy2前",
+  "parent_bit_sha256": "c2939bdf187d2623c995c61483f27291c51b015488e1e28a61c9be015df4aea2",
+  "observed_fault": "F5 SP64 EN1 AB errors0,5760ms run,145 total steps",
+  "checkpoint": {
+    "trigger_pulses": 48,
+    "trigger_ms": 3500,
+    "quiet_ms": 40,
+    "ratio_tolerance_counts": 4
+  },
+  "relative_limit": 48,
+  "absolute_target": 60,
+  "feedback_limit": 64,
+  "physical_stability": false
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "AGENTS.md",
+    "before": "d44ab486116ffffb71ff05613049622dd4cd3b2708c28ec0c6c0761f841c6509",
+    "after": "4db3848ff7a7dbd128dbe5f7776f330b5e7ccd01df9e5bd18792a55419b749f9"
+  },
+  {
+    "file": "analyze_precise4_155804.py",
+    "before": null,
+    "after": "755d7b83456b1773e6097d29678ca69a75ba405a47aa431cb2bc0257054312ba"
+  },
+  {
+    "file": "brake_precise5_contract.py",
+    "before": null,
+    "after": "81c7b8d62f4fa4f9d9cd153f95be6629edf98fb9aa778cca2e59e327379e6fc5"
+  },
+  {
+    "file": "brake_precise5_lineage.json",
+    "before": null,
+    "after": "dae8cf9ff60f8e5bee3f330277d0c2b947526e172b8eafaac925982450c1f860"
+  },
+  {
+    "file": "brake_precise5_required_suites.json",
+    "before": null,
+    "after": "047a2a859b379a3a9e81d662a788f2f4a6e4b34b45f3ec9103baa4ed49440374"
+  },
+  {
+    "file": "brake_precise5_verification.json",
+    "before": null,
+    "after": "222dac74e6358716996da570834146b9ab9057c9091f389598b05feeb7b89c85"
+  },
+  {
+    "file": "build.ps1",
+    "before": "2249f40a2c56617b59ab4a678d530707daedd48726d918c570bfc0ee686474b2",
+    "after": "f7ef74aa24bbcaa1dc31dc2dc82221996532a19813268beb5a0950cb26324aa8"
+  },
+  {
+    "file": "build_sources.json",
+    "before": "784bec32c336729480a6bf3acb96d1ca13f2526e50464d8a88dedea82bafdc6e",
+    "after": "86e3c3efaaf29b345967bfce1317721150e54362035faf65b484bc4f0bbae069"
+  },
+  {
+    "file": "commit_precise5.py",
+    "before": null,
+    "after": "393856dc6372863a79abd3362e9c172ad747efeee84a7c28aca67b1869f39fd0"
+  },
+  {
+    "file": "finalize_precise5.py",
+    "before": null,
+    "after": "919a01ec538d8ea97de42102dc98511c00471cb50bb28fa089fa5566288ac4e2"
+  },
+  {
+    "file": "host/brake_precise5_controls.ps1",
+    "before": null,
+    "after": "b7d15716b5a0a78c1b4ae83d7ed4c2cd908b01b25b896728c9f56a16a59ac980"
+  },
+  {
+    "file": "host/brake_precise5_panel_cn.ps1",
+    "before": null,
+    "after": "67e7db29731ae7cba4f415404fd12627308c2b26d4395ac6c3b2d809c3a691c4"
+  },
+  {
+    "file": "host/start_brake_precise5.cmd",
+    "before": null,
+    "after": "0eeee973278c45772e404d507fb2045f8146c4070ca4a01d2b690d8a9b9a3c43"
+  },
+  {
+    "file": "prepare_precise5.py",
+    "before": null,
+    "after": "5d8be500c1d04d34addf83bba2a6ca964a4dee1835772b9d9284bc8d9a566067"
+  },
+  {
+    "file": "publish_brake_precise5.py",
+    "before": null,
+    "after": "fad17e2fdd613bfaacd71190c88fd20c84d78382f785d18524a376a55074d87b"
+  },
+  {
+    "file": "README.md",
+    "before": "782108c1d35d7a5bae4793938a57f9172a639421d4b11eed4c3820378d1c9c24",
+    "after": "c7a439b25b9e5c9765743e7edec6e9a9a74be1dd6da202078b06061d021b070b"
+  },
+  {
+    "file": "routed_netlist.v",
+    "before": "16b4602f9fc4d29f69b5aa52d7acc770dbe59cd82a037571f06030003dba2619",
+    "after": "4aa7d92253a4f45a7668b4cd91779714194b0811630f5831c8710bc3222256eb"
+  },
+  {
+    "file": "rtl/vision_monitor_all.v",
+    "before": "bc7786e0b5bd62f83f683aed5f947d97b7d59d06a4fbb1aa254d67921aaf7341",
+    "after": "ff60ed150cc6be406b6e904cc482f34ac207cd8994aceac9cd83ae9909f52aab"
+  },
+  {
+    "file": "rtl/vision_region100.v",
+    "before": "918ca0ec8b4eb922ae66be6880d4c5da3ac92a1a4ef14aa50f6a9db326aa0a39",
+    "after": "9a87ba7c1d1ec973b4ae1d9bc595b6bf9787c032af9ea989d34f7b4f1755267a"
+  },
+  {
+    "file": "run_brake_precise5_regression.ps1",
+    "before": null,
+    "after": "e6acb371cc0aa9b968a23c2b63c9353c6f23d1a98052bc5ffc7d93ed65a0d58f"
+  },
+  {
+    "file": "run_sim.ps1",
+    "before": "f4ccda7f57dd437e443094b7536caf6b7b1d458cd7d18f81367830c88ad2b45f",
+    "after": "76ee89044b71d8009ca56959e1a9980f2dae81d11229c1efbefa28c3816fb9a9"
+  },
+  {
+    "file": "sim/tb_precise5_escape.v",
+    "before": null,
+    "after": "cb3459c4819ab301c39438084f2c323309d2f0e88410a16efe2c861b2b94aa2e"
+  },
+  {
+    "file": "verify_brake_precise5.py",
+    "before": null,
+    "after": "852320bc8622479b1da80b72c86ca5724c68be7830c8e7d6b9e3719feb7bf374"
+  },
+  {
+    "file": "精准回中5_测试说明.md",
+    "before": null,
+    "after": "adf2748d20a1171b384ee78da20e4353fc78a0699c74b846ea61abfa2729bb2c"
+  }
+]

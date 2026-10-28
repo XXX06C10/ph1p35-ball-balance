@@ -1,0 +1,97 @@
+{
+  "prefix": "D1",
+  "fields": [
+    [
+      "time_ms",
+      32
+    ],
+    [
+      "frame_ms",
+      32
+    ],
+    [
+      "sequence",
+      16
+    ],
+    [
+      "selection",
+      8
+    ],
+    [
+      "flags",
+      16
+    ],
+    [
+      "cal_phase",
+      8
+    ],
+    [
+      "cal_status",
+      8
+    ],
+    [
+      "x",
+      16
+    ],
+    [
+      "center",
+      16
+    ],
+    [
+      "position",
+      32
+    ],
+    [
+      "reference_q8",
+      32
+    ],
+    [
+      "velocity_q4",
+      32
+    ],
+    [
+      "frequency_hz",
+      16
+    ],
+    [
+      "fault",
+      8
+    ],
+    [
+      "spent",
+      8
+    ],
+    [
+      "command_position",
+      32
+    ],
+    [
+      "frame_number",
+      16
+    ],
+    [
+      "neutral",
+      8
+    ],
+    [
+      "config_errors",
+      16
+    ]
+  ],
+  "wire_bytes": 94,
+  "hex_order": "big endian",
+  "checksum": "XOR of payload bytes; excludes D1 prefix",
+  "signed": [
+    "position",
+    "reference_q8",
+    "velocity_q4",
+    "frequency_hz",
+    "command_position",
+    "neutral"
+  ],
+  "reserved_flags_extension": {
+    "11": "predictive builtin control active",
+    "10:9": "valid only when bit11=1:0drive,1predictive braking,2fine capture",
+    "wire_layout_changed": false
+  }
+}

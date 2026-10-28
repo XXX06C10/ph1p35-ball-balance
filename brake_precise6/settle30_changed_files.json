@@ -1,0 +1,112 @@
+[
+  {
+    "path": "rtl/vision_region_hold.v",
+    "parent_sha256": "2d9126c0de850feafcd0ad44a4e03eb6c99a314cee32d63e2390ad5b4c93a816",
+    "sha256": "7a6cbb16ef43df59d992325903c55d8723fb21ae25ba166d9d97e913813722e3"
+  },
+  {
+    "path": "rtl/vision_monitor.v",
+    "parent_sha256": "0140a8b1a15bdcc5fb6c68cd15d18e06b8401a32f164da1bfb0a20344c4c1bc3",
+    "sha256": "3961968bce06135f8e0a516c3f7e35a53f260ca84ef0e409ae19ac93e7b1c1b8"
+  },
+  {
+    "path": "rtl/vision_monitor_all.v",
+    "parent_sha256": "18bfafe5af73fc5aaacd47abdc0d5a0d2ab68aaea06a1125ce9d22b7f450ccec",
+    "sha256": "63e2a9e4b7ec72769a3bee991f4bb1515037e684b24a8be4a1cf87822b6cf9a6"
+  },
+  {
+    "path": "build.ps1",
+    "parent_sha256": "2da97806b8cbe80f7a1a82e65e03eed596a65b936bc7e6cd8a804c4ca5e8da5b",
+    "sha256": "c4dca21360c4e7d147d55a3f3e3c5ac22687e9a003f8412d3386c80b306f429c"
+  },
+  {
+    "path": "run_sim.ps1",
+    "parent_sha256": "472bd0e1b18de62c71dd6f198570842fbaf686050d41e26dc0b7e84166f8a7eb",
+    "sha256": "b1e4839e5a250509c17934b468b9353a9c253e010978a958d9a087c6d2cd8461"
+  },
+  {
+    "path": "run_settle_regression.ps1",
+    "parent_sha256": null,
+    "sha256": "76217b6e2654fea6eab6a66c15a2de194b4f88513053175f0d307a15e63aacdb"
+  },
+  {
+    "path": "sim/tb_region_policy.v",
+    "parent_sha256": "3e400b486472e99da85f401fa3fb23cd29ed09974848dd8e4489a9833d71b632",
+    "sha256": "360b521c2b9a2e2fc47d171d2be69920981303dfea311892618162a6a7f50f45"
+  },
+  {
+    "path": "sim/tb_settle_policy.v",
+    "parent_sha256": null,
+    "sha256": "295af43e9d4e9ea6f15e486fa6bb8a32bf98e966f7094128df149a3f2b766085"
+  },
+  {
+    "path": "sim/tb_settle_runtime.v",
+    "parent_sha256": null,
+    "sha256": "4320f2398786b15d09de730646b4a631da7009f3313294898933b389b8a0e46d"
+  },
+  {
+    "path": "sim/tb_settle_plant.v",
+    "parent_sha256": null,
+    "sha256": "178b7d5350c6779ee035e60aa957e7ee56bead3c0035b1b6a0649431bb1e2dfe"
+  },
+  {
+    "path": "host/settle_panel_cn.ps1",
+    "parent_sha256": null,
+    "sha256": "578c57fe1967193d5ae7b34f789d555d97b07c1b70091ec7f203d154167aadc2"
+  },
+  {
+    "path": "host/settle_controls.ps1",
+    "parent_sha256": null,
+    "sha256": "2191b557a276b1f8b3c1afb9d86fc53ac4ea1d4ef6ad3a9c18ba523a95b941ea"
+  },
+  {
+    "path": "host/settle_profile.ps1",
+    "parent_sha256": null,
+    "sha256": "bf2d811e16a5a2995b8d103143034e0c14f5745e95881191361624c1895f0d9b"
+  },
+  {
+    "path": "host/start_settle30.cmd",
+    "parent_sha256": null,
+    "sha256": "1724fae756a071aee107ba079dcb44d52a95cfbd5a027f9cd6d9026252f69d61"
+  },
+  {
+    "path": "settle30_contract.py",
+    "parent_sha256": null,
+    "sha256": "f13ef7b015c13ff608689f83e5cfaefdd624bb4f41baa0b318f89a170f2e21bc"
+  },
+  {
+    "path": "verify_settle30.py",
+    "parent_sha256": null,
+    "sha256": "559fe04406693f0b0af243c530fe3c4a80b811b386cd1b34127d3bb3bf5c7d57"
+  },
+  {
+    "path": "publish_settle30.py",
+    "parent_sha256": null,
+    "sha256": "ec208efb227ba9260170092465073c9dd58fa664bba3acfad9be0ad26b76542e"
+  },
+  {
+    "path": "settle30_diagnosis.json",
+    "parent_sha256": null,
+    "sha256": "36a54a09c28113913e4f73337f8a7f572db39176aebe00eeb71825c26be977e4"
+  },
+  {
+    "path": "settle30_lineage.json",
+    "parent_sha256": null,
+    "sha256": "496f356f1977d51bb2be9030cddec289b69cbd669ad5456186b31f3cdd5d3d16"
+  },
+  {
+    "path": "稳区与目标整形_测试说明.md",
+    "parent_sha256": null,
+    "sha256": "b76fd8143a6b2512871600177ebe5b18fddad8bb32aa9817323aa487fb07fd59"
+  },
+  {
+    "path": "AGENTS.md",
+    "parent_sha256": "b4a5d274ea35bd28beecec569182a7447bfbb0f1326b61c90d6863d367614c91",
+    "sha256": "77140c7f88795714a548d131b124198ade6df71543945be546b4d9b1acfc5a53"
+  },
+  {
+    "path": "README.md",
+    "parent_sha256": "b99f261f092574c8e6892a9dac6761134c848a82690337fa905009c9e988f212",
+    "sha256": "84d1b116d143452c35f4999239cf0937f701e5393c8d5bfea2e34712e2236555"
+  }
+]

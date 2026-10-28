@@ -1,0 +1,77 @@
+[
+  {
+    "path": "rtl/vision_asym_limits.v",
+    "parent_sha256": null,
+    "sha256": "599222be3f541192327c72acdaf3316a62af19f90ca6297a2c1757d1cc77fd28"
+  },
+  {
+    "path": "rtl/vision_servo_core.v",
+    "parent_sha256": "f5cbd197f482891c58cfbf53f61c6e02a167eee239c1ab93bf0c71b5a027a294",
+    "sha256": "a74efe4bec8eb2c833bb75d2510927664a8a33eead009ea63aa444c25381d6f6"
+  },
+  {
+    "path": "rtl/vision_cascade_control.v",
+    "parent_sha256": "77725488d07377b583d68e7464a07fc9bcf98778c348e74f2075d9c2f2313105",
+    "sha256": "7d592974ed153a6a0732c0ca04d3993f41d00d9e9763dbd668958cd31151c318"
+  },
+  {
+    "path": "rtl/vision_cascade_outer.v",
+    "parent_sha256": "4739c7ff79312dbcbe72bfa037ad9f0c32ac65cb6a27450107073480174cbe04",
+    "sha256": "1145c83f0d9f17364a9eb75a68f1d60a21e1fac59dfe1603b08019814233ac72"
+  },
+  {
+    "path": "rtl/vision_region_hold.v",
+    "parent_sha256": "886e74fd67b9536ba52679da2eded2edc0396b9eedf16d37ed145f89edc7cd74",
+    "sha256": "6dfd14111d2b3c7bf29fa00402e01e56402664271dd972251cc53aee96361626"
+  },
+  {
+    "path": "rtl/vision_monitor.v",
+    "parent_sha256": "f4a40461c8b98ef9c0e770178ff970867cca9382ac5039a75d7d4a3a62f28de7",
+    "sha256": "0140a8b1a15bdcc5fb6c68cd15d18e06b8401a32f164da1bfb0a20344c4c1bc3"
+  },
+  {
+    "path": "rtl/vision_report_tx.v",
+    "parent_sha256": "e28ca3dad5ce3f080766e799db58f810de068628f908580c7463602133fae7be",
+    "sha256": "95cac72bf903409f5238abdcaf176a8e68ff7601e21ce405901ebd709af8f706"
+  },
+  {
+    "path": "rtl/vision_cascade_diag.v",
+    "parent_sha256": "df6a607ee364a1a25168021a57537128a59cfa3cfd4d5b4f24ed4b528d1d19ef",
+    "sha256": "f8eb5ac64dd26d5fe63960c7ca7e986891643e9b8aac8233de1b54719428d27e"
+  },
+  {
+    "path": "compose.py",
+    "parent_sha256": "f66366cde5df20149460f9ea7a85eff7f62ac572350625f1269036c8a052dc14",
+    "sha256": "650aacac5369209cf3774b396b84a45f1a11dd01ff2383c38edf8ef769a0330b"
+  },
+  {
+    "path": "build.ps1",
+    "parent_sha256": "4ddf8c5b2758b74731b9ccc3fbb051dbe596e0ea8be160370a0ea8ff1a417876",
+    "sha256": "c9c7426325f3af9b3cf8acde552d7d081a611e9ba443c623bc4660c0e3d970e8"
+  },
+  {
+    "path": "user_source/hdl_source/design_top_wrapper.v",
+    "parent_sha256": "5b168e0631c4c17a35b578977800718ab687168312f7cf878074a344bcb2c375",
+    "sha256": "8ff7c65f8e6978553453f304e8824eb739398f29d1019cc71c56ed46a70bd492"
+  },
+  {
+    "path": "host/asym_panel_cn.ps1",
+    "parent_sha256": null,
+    "sha256": "6dfe1e95f8578b8efd0d31a46c0b138dc9d0b1074c47b5e147852ceeedf809bd"
+  },
+  {
+    "path": "host/asym_controls.ps1",
+    "parent_sha256": null,
+    "sha256": "e41e2eabce605de918b3b9a8508aa53d2782ef9dbe8e728fe18222bd4fe5dee4"
+  },
+  {
+    "path": "host/asym_protocol.ps1",
+    "parent_sha256": null,
+    "sha256": "a55258227d692cf84a15839c4238c140e288392da71804a59a559e1fc55f9f8a"
+  },
+  {
+    "path": "host/asym_protocol.py",
+    "parent_sha256": null,
+    "sha256": "1ec34f65398e2d7da4e1e79dee326fa37f4f744587413ea28647087e98fff4cf"
+  }
+]

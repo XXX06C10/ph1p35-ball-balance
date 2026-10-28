@@ -1,0 +1,74 @@
+{
+  "physical_calibration": false,
+  "cases": [
+    {
+      "b": -5.0,
+      "parameters": {
+        "version": 1,
+        "sequence": 0,
+        "selection": 1,
+        "diagnostics": 1,
+        "kp": 819,
+        "kv": 82,
+        "ki": 131,
+        "bias": 0,
+        "inner_kp": 8192,
+        "feedforward": 200,
+        "max_hz": 100,
+        "delay_ms": 20,
+        "amplitude": 4,
+        "slew_rate": 102,
+        "polarity": 0,
+        "reserved": 0
+      },
+      "wn": 1.0,
+      "zeta": 0.9
+    },
+    {
+      "b": -20.0,
+      "parameters": {
+        "version": 1,
+        "sequence": 0,
+        "selection": 1,
+        "diagnostics": 1,
+        "kp": 461,
+        "kv": 32,
+        "ki": 131,
+        "bias": 0,
+        "inner_kp": 8192,
+        "feedforward": 200,
+        "max_hz": 100,
+        "delay_ms": 20,
+        "amplitude": 4,
+        "slew_rate": 102,
+        "polarity": 0,
+        "reserved": 0
+      },
+      "wn": 1.5,
+      "zeta": 0.9
+    },
+    {
+      "b": 20.0,
+      "parameters": {
+        "version": 1,
+        "sequence": 0,
+        "selection": 1,
+        "diagnostics": 1,
+        "kp": 461,
+        "kv": 32,
+        "ki": 131,
+        "bias": 0,
+        "inner_kp": 8192,
+        "feedforward": 200,
+        "max_hz": 100,
+        "delay_ms": 20,
+        "amplitude": 4,
+        "slew_rate": 102,
+        "polarity": 1,
+        "reserved": 0
+      },
+      "wn": 1.5,
+      "zeta": 0.9
+    }
+  ]
+}

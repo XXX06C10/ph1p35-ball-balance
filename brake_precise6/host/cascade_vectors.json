@@ -1,0 +1,94 @@
+{
+  "commands": [
+    {
+      "parameters": {
+        "version": 1,
+        "sequence": 0,
+        "selection": 0,
+        "diagnostics": 1,
+        "kp": 512,
+        "kv": 128,
+        "ki": 0,
+        "bias": 0,
+        "inner_kp": 8192,
+        "feedforward": 200,
+        "max_hz": 50,
+        "delay_ms": 0,
+        "amplitude": 4,
+        "slew_rate": 256,
+        "polarity": 0,
+        "reserved": 0
+      },
+      "packet": "C01000000010200008000000000200000C800320004010000005D\n"
+    },
+    {
+      "parameters": {
+        "version": 1,
+        "sequence": 1,
+        "selection": 2,
+        "diagnostics": 1,
+        "kp": 512,
+        "kv": 128,
+        "ki": 0,
+        "bias": 0,
+        "inner_kp": 8192,
+        "feedforward": 200,
+        "max_hz": 50,
+        "delay_ms": 0,
+        "amplitude": 8,
+        "slew_rate": 256,
+        "polarity": 0,
+        "reserved": 0
+      },
+      "packet": "C01000102010200008000000000200000C8003200080100000052\n"
+    },
+    {
+      "parameters": {
+        "version": 1,
+        "sequence": 65535,
+        "selection": 1,
+        "diagnostics": 1,
+        "kp": 512,
+        "kv": 128,
+        "ki": 0,
+        "bias": -2048,
+        "inner_kp": 8192,
+        "feedforward": 200,
+        "max_hz": 200,
+        "delay_ms": 0,
+        "amplitude": 4,
+        "slew_rate": 256,
+        "polarity": 1,
+        "reserved": 0
+      },
+      "packet": "C01FFFF0101020000800000F800200000C800C80004010001005F\n"
+    }
+  ],
+  "diagnostics": [
+    {
+      "line": "D10000012C00000128000102008B000003C003C00000000000000000000000000000000000000000000900000085",
+      "position": 0,
+      "velocity_q4": 0
+    },
+    {
+      "line": "D1000001790000016A00010200CF010103C003C00000000000000000000000000000000000000000000B000000D4",
+      "position": 0,
+      "velocity_q4": 0
+    },
+    {
+      "line": "D1000001C6000001AC00010200CF010103C003C00000000200000800000000000032000300000003000D00000093",
+      "position": 2,
+      "velocity_q4": 0
+    },
+    {
+      "line": "D1000002130000020F00010200CF010103C003C000000007000008000000000000000006000000060010000000CF",
+      "position": 7,
+      "velocity_q4": 0
+    },
+    {
+      "line": "D1000002600000025100010200CF020103C003C0000000050000000000000000FFCE0008000000040012000000D4",
+      "position": 5,
+      "velocity_q4": 0
+    }
+  ]
+}

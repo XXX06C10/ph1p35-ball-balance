@@ -1,0 +1,110 @@
+[
+  {
+    "log": "host/logs/20261025_153828_804.txt",
+    "sha256": "9dd1688c83ab67ad08efab90b7f068f381ed6bb9c7c086013f5cc50158f55043",
+    "E1_valid": 710,
+    "E1_bad": 0,
+    "D1_valid": 2551,
+    "D1_bad": 0,
+    "event_sequence_errors": 2,
+    "first_sequence_errors": [
+      {
+        "before": 464,
+        "after": 337,
+        "before_ms": 46400,
+        "after_ms": 46500
+      },
+      {
+        "before": 337,
+        "after": 466,
+        "before_ms": 46500,
+        "after_ms": 46483
+      }
+    ],
+    "overflow_flag": false,
+    "STEP_edges": 0,
+    "motion_evidence": "NONE; cannot identify ball/beam dynamics",
+    "diagnostic_issue": "E1 corruption/repeated earlier FIFO content; exact physical cause unconfirmed; new return image disables E1 and does not gate on probe sequence",
+    "static_sample_count": 360,
+    "static_x_std_px": 3.4620863170444878,
+    "static_x_peak_to_peak_px": 17
+  },
+  {
+    "log": "host/logs/20261025_153954_775.txt",
+    "sha256": "1d04878fa1458f5d6722e0a11c4ffcdcf33021b580e126aea813cdf215706fa8",
+    "E1_valid": 1115,
+    "E1_bad": 84,
+    "D1_valid": 4277,
+    "D1_bad": 1,
+    "event_sequence_errors": 337,
+    "first_sequence_errors": [
+      {
+        "before": 268,
+        "after": 141,
+        "before_ms": 26602,
+        "after_ms": 30846
+      },
+      {
+        "before": 141,
+        "after": 270,
+        "before_ms": 30846,
+        "after_ms": 26774
+      },
+      {
+        "before": 270,
+        "after": 143,
+        "before_ms": 26774,
+        "after_ms": 24790
+      },
+      {
+        "before": 144,
+        "after": 401,
+        "before_ms": 27002,
+        "after_ms": 27102
+      },
+      {
+        "before": 401,
+        "after": 146,
+        "before_ms": 27102,
+        "after_ms": 27138
+      },
+      {
+        "before": 146,
+        "after": 275,
+        "before_ms": 27138,
+        "after_ms": 27274
+      },
+      {
+        "before": 275,
+        "after": 148,
+        "before_ms": 27274,
+        "after_ms": 27338
+      },
+      {
+        "before": 150,
+        "after": 407,
+        "before_ms": 27602,
+        "after_ms": 27702
+      },
+      {
+        "before": 407,
+        "after": 280,
+        "before_ms": 27702,
+        "after_ms": 27774
+      },
+      {
+        "before": 280,
+        "after": 153,
+        "before_ms": 27774,
+        "after_ms": 27902
+      }
+    ],
+    "overflow_flag": false,
+    "STEP_edges": 0,
+    "motion_evidence": "NONE; cannot identify ball/beam dynamics",
+    "diagnostic_issue": "E1 corruption/repeated earlier FIFO content; exact physical cause unconfirmed; new return image disables E1 and does not gate on probe sequence",
+    "static_sample_count": 1032,
+    "static_x_std_px": 343.2000440448805,
+    "static_x_peak_to_peak_px": 722
+  }
+]

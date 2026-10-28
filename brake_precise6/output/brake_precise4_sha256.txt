@@ -1,0 +1,2 @@
+36192ca2f4624a53b49f7d9f033ec96159fae465fabd16fbab2976fcc4b147e2  brake_precise4.bit
+36192ca2f4624a53b49f7d9f033ec96159fae465fabd16fbab2976fcc4b147e2  vision_follow_20261022_brake_precise4.bit

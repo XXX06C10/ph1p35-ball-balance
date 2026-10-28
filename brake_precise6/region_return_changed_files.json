@@ -1,0 +1,57 @@
+[
+  {
+    "file": "rtl/vision_monitor.v",
+    "before_sha256": "487223c664775d531541f04351c2f34735954b5f48a99111e90cf54d09f82046",
+    "after_sha256": "f4a40461c8b98ef9c0e770178ff970867cca9382ac5039a75d7d4a3a62f28de7"
+  },
+  {
+    "file": "rtl/vision_cascade_outer.v",
+    "before_sha256": "fa2a7c28130653168de913fd0e315c3df1d3ffe2d77c4e01842c8ad4019ad85b",
+    "after_sha256": "4739c7ff79312dbcbe72bfa037ad9f0c32ac65cb6a27450107073480174cbe04"
+  },
+  {
+    "file": "rtl/vision_servo_core.v",
+    "before_sha256": "c950454cfdfb6cf4154b4797289169d091981bf3700859521371b26cc63167de",
+    "after_sha256": "f5cbd197f482891c58cfbf53f61c6e02a167eee239c1ab93bf0c71b5a027a294"
+  },
+  {
+    "file": "rtl/vision_region_hold.v",
+    "before_sha256": null,
+    "after_sha256": "886e74fd67b9536ba52679da2eded2edc0396b9eedf16d37ed145f89edc7cd74"
+  },
+  {
+    "file": "compose.py",
+    "before_sha256": "017e0a8aa5f733eb6e0084779b99abe058e714feb50808aa40dcca0193371757",
+    "after_sha256": "f66366cde5df20149460f9ea7a85eff7f62ac572350625f1269036c8a052dc14"
+  },
+  {
+    "file": "build.ps1",
+    "before_sha256": "9494e49644c37b0bb58b8c3bcb9f1f126c4da098cac1342f97f16ed92d4affb5",
+    "after_sha256": "4ddf8c5b2758b74731b9ccc3fbb051dbe596e0ea8be160370a0ea8ff1a417876"
+  },
+  {
+    "file": "run_sim.ps1",
+    "before_sha256": "1d9427ae2b961567ad824cca4f8de8e7e4ec211b115da34bdd1872253a2ba13c",
+    "after_sha256": "b344a9f92e9cc6b854e8a2956906e008f8949f957a3fd33279871491ea74022d"
+  },
+  {
+    "file": "user_source/hdl_source/design_top_wrapper.v",
+    "before_sha256": "214dda836e5fcf0bbc4a56b34bab197470adaadbd82d6ec73a31bc8b54d540ca",
+    "after_sha256": "5b168e0631c4c17a35b578977800718ab687168312f7cf878074a344bcb2c375"
+  },
+  {
+    "file": "host/region_return_panel_cn.ps1",
+    "before_sha256": null,
+    "after_sha256": "f36d7c16e3056990af71312e2f99eaa643ab205d555218bfcd1c5c6a7836af94"
+  },
+  {
+    "file": "host/region_return_controls.ps1",
+    "before_sha256": null,
+    "after_sha256": "da55e682bc42dc9470ad579d779592489375b0f21c689a41976fd5595fdf0f38"
+  },
+  {
+    "file": "host/start_region_return.cmd",
+    "before_sha256": null,
+    "after_sha256": "b5197babcf4d0ad76b83bb41eebd60b76313d14b5c5d7cecae1fc5172c077005"
+  }
+]

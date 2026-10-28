@@ -1,0 +1,53 @@
+{
+  "status": "OBSERVATIONS_ONLY_NOT_PHYSICAL_IDENTIFICATION",
+  "file": "host\\logs\\20261026_212005_783.txt",
+  "D2_records": 8239,
+  "VIS6_records": 716,
+  "bad_or_partial_lines": {
+    "other": 2,
+    "VIS6": 1
+  },
+  "boots": 2,
+  "sessions": [
+    {
+      "boot": 0,
+      "start_ms": 41538,
+      "end_ms": 88551,
+      "duration_ms": 47013,
+      "center": 751,
+      "valid_frames": 1274,
+      "near_nonzero_direction_changes_including_separate_visits": 3,
+      "fast_inward_near_frames": 4,
+      "fast_inward_near_peak_command_hz": 200
+    },
+    {
+      "boot": 0,
+      "start_ms": 93980,
+      "end_ms": 135480,
+      "duration_ms": 41500,
+      "center": 831,
+      "valid_frames": 1137,
+      "near_nonzero_direction_changes_including_separate_visits": 3,
+      "fast_inward_near_frames": 4,
+      "fast_inward_near_peak_command_hz": 194
+    },
+    {
+      "boot": 1,
+      "start_ms": 18980,
+      "end_ms": 46080,
+      "duration_ms": 27100,
+      "center": 630,
+      "valid_frames": 744,
+      "near_nonzero_direction_changes_including_separate_visits": 2,
+      "fast_inward_near_frames": 3,
+      "fast_inward_near_peak_command_hz": 162
+    }
+  ],
+  "faults": {
+    "0": 8239
+  },
+  "stop_reason_fault_pairs": {
+    "(0, 0)": 695,
+    "(3, 0)": 21
+  }
+}

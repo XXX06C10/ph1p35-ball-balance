@@ -1,0 +1,7 @@
+{
+  "status": "EXPECTED_OLD_REFERENCE_FAILURE_REPRODUCED",
+  "old_target": 0,
+  "actual_level": 31,
+  "fixture": "actual monitor/real AB off-enable movement/re-enable, same neutral regression",
+  "log": "sim/results/before_neutral.log"
+}

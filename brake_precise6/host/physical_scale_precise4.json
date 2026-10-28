@@ -1,0 +1,13 @@
+{
+  "left": {
+    "x": 262,
+    "y": 489
+  },
+  "right": {
+    "x": 1693,
+    "y": 513
+  },
+  "length_mm": 125,
+  "approximate": true,
+  "source": "User endpoint screenshots, 2026-10-27; same camera and image scale required; X-linear mapping only; K3 unchanged"
+}

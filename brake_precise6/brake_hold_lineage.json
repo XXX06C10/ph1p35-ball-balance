@@ -1,0 +1,7 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\brake_hold_archive_20261026",
+  "parent_bit_sha256": "46a2b676a6bfeaa3168620aaedd53e40e95128d16a1af6c9f081f5b90be49f7c",
+  "measurement": "measured_20261026.txt",
+  "measurement_sha256": "dc4acb5da6de0a58e5789a9b612e09116e439ed963677daf78d500b86c7dcd8a",
+  "status": "USER_REPORTED_USABLE_BUT_SLOW_BRAKING_AND_NEAR_CENTER_TWITCH"
+}

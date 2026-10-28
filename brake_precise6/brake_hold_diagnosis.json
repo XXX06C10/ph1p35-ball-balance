@@ -1,0 +1,48 @@
+{
+  "status": "OBSERVATIONS_ONLY_NOT_PHYSICAL_IDENTIFICATION",
+  "file": "D:\\AAAProject\\FPGA\\AAA_LookHere\\brake_hold_archive_20261026/measured_20261026.txt",
+  "D2_records": 21467,
+  "VIS6_records": 1865,
+  "bad_or_partial_lines": {
+    "other": 4,
+    "VIS6": 1,
+    "D2": 2
+  },
+  "boots": 3,
+  "sessions": [
+    {
+      "boot": 0,
+      "start_ms": 59538,
+      "end_ms": 148340,
+      "duration_ms": 88802,
+      "center": 493,
+      "valid_frames": 2444,
+      "near_nonzero_direction_changes_including_separate_visits": 5,
+      "fast_inward_near_frames": 6,
+      "fast_inward_near_peak_command_hz": 50
+    },
+    {
+      "boot": 2,
+      "start_ms": 13038,
+      "end_ms": 126038,
+      "duration_ms": 113000,
+      "center": 912,
+      "valid_frames": 3099,
+      "near_nonzero_direction_changes_including_separate_visits": 58,
+      "fast_inward_near_frames": 106,
+      "fast_inward_near_peak_command_hz": 50
+    }
+  ],
+  "faults": {
+    "0": 13192,
+    "4": 927,
+    "7": 812,
+    "2": 6536
+  },
+  "stop_reason_fault_pairs": {
+    "(0, 0)": 1146,
+    "(6, 4)": 80,
+    "(0, 7)": 71,
+    "(6, 2)": 568
+  }
+}

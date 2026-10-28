@@ -1,0 +1,9 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\asym_smooth_archive_20261026",
+  "parent_bit_sha256": "b60f23a56a79740d850b928adfe9d584db8c66540c229a4597baa35e31fdc91d",
+  "measurement": "measured_20261026_120008.txt",
+  "measurement_sha256": "babf14eda54719bc4f1894b983c6e33f46540ed173a214eda9cd99ed0500bbb8",
+  "trusted_asym_snapshot": "D:\\AAAProject\\FPGA\\AAA_LookHere\\brake_hold_archive_20261026\\snapshot",
+  "trusted_asym_bit_sha256": "46a2b676a6bfeaa3168620aaedd53e40e95128d16a1af6c9f081f5b90be49f7c",
+  "trusted_asym_region_sha256": "6dfd14111d2b3c7bf29fa00402e01e56402664271dd972251cc53aee96361626"
+}

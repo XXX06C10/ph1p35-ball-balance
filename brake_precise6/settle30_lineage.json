@@ -1,0 +1,7 @@
+{
+  "archive": "D:\\AAAProject\\FPGA\\AAA_LookHere\\settle30_archive_20261026",
+  "parent_bit_sha256": "d154db29a045e10609425aa2d7e6ad45e86cc3f3a666ce7f8fb0c5a55389773e",
+  "measurement": "measured_20261026_110034.txt",
+  "measurement_sha256": "0ff7eed06b31a366ff75fbb9dfade2457a1aaa7970a2da350cc4eb14c08b0989",
+  "basis": "98sec no faults; motor tracks ref within2-3counts; raw desired-ref120count median during oscillation; runtime hold-zone presets requested for faster iteration"
+}
